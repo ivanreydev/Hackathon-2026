@@ -1,5 +1,5 @@
-From: Mikael Network
-To: Laura Lehtinen
+From: Mikko Laaksonen
+To: Laura Nieminen
 Subject: SW-118 intermittent packet loss after configuration update
 
 Hi Laura,
@@ -12,4 +12,4 @@ We encountered something similar at another site last month. The issue disappear
 It might be worth trying this before considering a hardware replacement.
 
 Best regards,
-Mikael
+Mikko

@@ -1,8 +1,8 @@
-From: Matti Melua
-To: Sisko Säätö
+From: Emilia Koski
+To: Olli Rantanen
 Subject: RE: ROU-108 packet loss spiking after firmware update
 
-Hi Sisko,
+Hi Olli,
 
 That sounds like the exact behaviour we have seen after applying the recent firmware patches to the edge routers.
 
@@ -23,4 +23,4 @@ This has solved the issue in several cases I've seen across the regional distrib
 I don't think this nuance is covered in the standard release notes yet. It is one of those things we have learned from troubleshooting in the field.
 
 Regards,
-Matti
+Emilia

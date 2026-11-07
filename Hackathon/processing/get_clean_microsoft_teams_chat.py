@@ -1,11 +1,8 @@
-import csv
-import html
-import json
-import os
-import re
+"""Clean a raw Microsoft Graph channel export into the common message schema.
 
-
-"""
+Per message:
+msg_id         Graph message id (join key back to the source; lets situations cite messages)
+reply_to_id    parent message id, null for top-level
 seq            1-based order by creation time (stable across re-runs of the same input)
 datetime       createdDateTime, as sent by Graph (ISO 8601, UTC)
 author         display name
@@ -14,10 +11,15 @@ author_type    user|application
 role           from the roles lookup BY author_id, else "Unknown"
 text           plain text (HTML converted, emoji kept)
 importance     normal|high|urgent
-reactions      [{type, user, datetime}]  (a thumbs-up after a fix is a cheap 'it worked' signal)
 web_url        deep link to the message in Teams (provenance)
 """
+from __future__ import annotations
 
+import csv
+import html
+import json
+import os
+import re
 
 # ---------- helpers ----------
 
@@ -115,6 +117,8 @@ def transform(ms_graph, roles: dict | None = None, source_name: str | None = Non
         channel = channel or (m.get("channelIdentity") or {})
         messages.append({
             "seq": seq,
+            "msg_id": m["id"],
+            "reply_to_id": m.get("replyToId"),
             "datetime": m["createdDateTime"],
             "author": who["name"],
             "author_id": who["id"],

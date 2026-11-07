@@ -1,8 +1,8 @@
-From: Petri Virtanen
-To: Daniel Koskinen
+From: Sara Mäkinen
+To: Mikael Salonen
 Subject: RE: NET-063 Unexpected link flapping on legacy access switch
 
-Hi Daniel,
+Hi Mikael,
 
 Good job identifying the link flapping on the access switch and checking the physical connections first. That's always a sensible starting point.
 
@@ -25,4 +25,4 @@ Don't worry if these issues seem confusing at first. Troubleshooting older netwo
 You're on the right track. Keep documenting what you find, and you'll become much more comfortable identifying these problems.
 
 Best regards,
-Petri
+Sara

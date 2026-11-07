@@ -1,8 +1,8 @@
-From: Matti Melua
-To: Sisko Säätö
+From: Riku Heikkinen
+To: Daniel Koskinen
 Subject: NET-056 VLAN connectivity not restored after power outage
 
-Hi Sisko,
+Hi Daniel,
 
 I have seen something similar with some of the older access switches still deployed at our remote sites.
 
@@ -26,4 +26,4 @@ We had a similar case at one of the older production sites. The hardware was per
 
 I would therefore recommend checking the VLAN and trunk configuration before considering hardware replacement. These legacy devices can behave unexpectedly, but in many cases the problem is related to configuration recovery rather than an actual hardware failure.
 
-Regards, Matti
+Regards, Riku
