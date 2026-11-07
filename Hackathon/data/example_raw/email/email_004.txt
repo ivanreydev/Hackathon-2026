@@ -1,0 +1,15 @@
+From: Antti Korhonen
+To: Sanna Nieminen
+Subject: RE: RAN-027 intermittent connectivity after router failover
+
+Hi Sanna,
+
+I think the problem on RAN-027 could be related to the routing table not being updated correctly after the backup connection takes over.
+The failover itself seems to work as expected. The router switches to the secondary link, and the connection becomes available again. However, some traffic continues to follow the previous route, which can cause intermittent packet loss or delays.
+Before making any major configuration changes, I would check whether the routing table contains the correct next-hop addresses after failover.
+We had a similar situation at another location where the backup link was functioning normally, but a few static routes were still pointing towards the primary connection.
+In that case, correcting the affected routes resolved the issue without requiring a router restart.
+It may be worth checking this first, especially if the problem only occurs when switching between the primary and backup connections.
+
+Regards,
+Antti

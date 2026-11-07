@@ -1,0 +1,29 @@
+From: Markus Laine
+To: Sofia Virtanen
+Subject: INC-2841 intermittent packet loss on legacy network equipment
+
+Hi Sofia,
+
+This issue sounds quite similar to something we investigated a few months ago under ticket INC-2517.
+
+In that case, we had intermittent packet loss between an older distribution switch and the core network. Initially, everything pointed towards a faulty uplink, but after checking the interface statistics, we noticed that the switch was occasionally discarding packets due to an outdated MTU configuration.
+
+The problem was caused by a mismatch between the frame size supported by the legacy switch and the configuration on the newer core equipment.
+
+We eventually resolved it by aligning the MTU settings across the affected interfaces. There was no need to replace the hardware or change the routing configuration.
+
+For your current case, I would suggest checking the following:
+
+Compare the MTU configuration on both ends of the affected connection.
+Check interface counters for giants, discards and other frame-related errors.
+Verify whether the packet loss occurs only when larger packets are transmitted.
+
+One important detail from the previous ticket was that ordinary ping tests did not reveal the problem. Small packets were transmitted successfully, which initially made the connection appear healthy.
+
+If the symptoms match what we saw in INC-2517, we may be dealing with the same underlying limitation of the legacy equipment.
+
+You can find the original troubleshooting notes and final resolution in the closed ticket. It should be a useful reference before we start making configuration changes.
+
+Let me know what you find. If the results are similar, we can follow the same approach, making sure to verify the configuration and maintenance requirements before applying any changes.
+
+Regards, Markus

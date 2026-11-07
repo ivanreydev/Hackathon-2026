@@ -1,0 +1,28 @@
+From: Olli Rantanen
+To: Emilia Koski
+Subject: NET-091 devices unreachable after gateway recovery
+
+Hi Emilia,
+
+This is an interesting one. The symptoms don't immediately point to a physical connection or routing problem.
+
+I remember we had something quite similar at the Tampere site last year, documented under ticket INC-1938. Back then, several devices became unreachable after the primary gateway recovered from an unexpected restart.
+
+What made that case unusual was that the network infrastructure itself appeared to be functioning normally. Interfaces were UP, routing was correct, and there were no obvious packet drops. However, some devices were still trying to communicate using outdated MAC address information.
+
+The root cause turned out to be an ARP cache inconsistency. When the gateway changed its active role, not all devices updated their cached IP-to-MAC address mappings immediately. As a result, some traffic was still being forwarded towards the previous gateway.
+
+We eventually resolved the issue by correcting the gateway failover behaviour and ensuring that gratuitous ARP announcements were being sent when the active gateway changed.
+
+For the current incident, I would investigate whether the affected devices have outdated ARP entries. Compare their cached gateway MAC addresses with the MAC address currently advertised by the active gateway.
+
+I would also check the redundancy logs to establish whether the failover and recovery events were completed successfully. Some older network devices have limitations in how quickly they propagate these updates, particularly when they are running firmware that has not been updated for several years.
+
+Please don't clear the entire ARP table or restart the gateway just yet. First, collect the relevant entries and logs so we can establish whether this is actually the same behaviour we encountered in INC-1938.
+
+The old ticket contains some useful diagnostic notes, especially regarding the interaction between the legacy gateway firmware and newer access switches.
+
+It might be worth comparing both cases before deciding on the next step. These intermittent problems can be difficult to reproduce, so having evidence from the initial failure is particularly valuable.
+
+Regards,
+Olli

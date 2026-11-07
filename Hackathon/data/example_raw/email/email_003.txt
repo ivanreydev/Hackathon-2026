@@ -1,0 +1,15 @@
+From: Mikael Network
+To: Laura Lehtinen
+Subject: SW-118 intermittent packet loss after configuration update
+
+Hi Laura,
+
+I had a look at the symptoms you described on SW-118. This might be related to how the switch handles its MAC address table after a configuration change.
+I've seen a few cases where connectivity becomes unstable even though the interfaces remain operational. Devices can still communicate, but packets are occasionally sent to the wrong port or get dropped.
+One thing worth checking is whether the MAC address table has been updated correctly. If the switch still has outdated entries, it may continue forwarding traffic based on the previous network topology.
+I would suggest checking the affected devices' MAC addresses and comparing their entries with the connected ports. If you find stale entries, clearing the relevant dynamic MAC entries may help restore normal forwarding.
+We encountered something similar at another site last month. The issue disappeared after the old entries were removed, without needing to restart the switch.
+It might be worth trying this before considering a hardware replacement.
+
+Best regards,
+Mikael

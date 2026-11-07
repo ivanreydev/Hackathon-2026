@@ -1,0 +1,28 @@
+From: Petri Virtanen
+To: Daniel Koskinen
+Subject: RE: NET-063 Unexpected link flapping on legacy access switch
+
+Hi Daniel,
+
+Good job identifying the link flapping on the access switch and checking the physical connections first. That's always a sensible starting point.
+
+I suspect this might be related to the age of the switch rather than a problem with the connected device.
+
+Some of the older models have fairly limited support for automatic speed and duplex negotiation. When connected to newer equipment, they can occasionally fail to negotiate a stable link. This can result in the interface repeatedly going UP and DOWN, even when the cable itself is perfectly fine.
+
+There are a couple of things I would check before requesting a replacement.
+
+Start by looking at the interface logs and see whether the link drops occur at regular intervals. If they do, compare the speed and duplex settings on both ends of the connection.
+
+Also, check whether the switch has any interface errors, particularly CRC errors or input errors. A growing number of CRC errors can indicate a physical-layer problem, such as a damaged cable or an incompatible connection.
+
+One thing to remember with legacy equipment is that changing the speed and duplex settings on only one side can actually make things worse. Both ends need to use compatible settings. If you decide to test a fixed configuration, make sure you have access to the device and a way to restore the original settings.
+
+Finally, document the results before making any changes. It is much easier to understand what happened later when you have the original interface statistics and configuration available.
+
+Don't worry if these issues seem confusing at first. Troubleshooting older network equipment often requires a bit more investigation because its behaviour isn't always the same as what you would expect from newer devices.
+
+You're on the right track. Keep documenting what you find, and you'll become much more comfortable identifying these problems.
+
+Best regards,
+Petri

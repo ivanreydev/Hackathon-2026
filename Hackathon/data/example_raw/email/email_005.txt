@@ -1,0 +1,29 @@
+From: Matti Melua
+To: Sisko Säätö
+Subject: NET-056 VLAN connectivity not restored after power outage
+
+Hi Sisko,
+
+I have seen something similar with some of the older access switches still deployed at our remote sites.
+
+In this particular case, the switch appears to recover normally after a power interruption. Management access is available, all physical interfaces show as UP, and there are no active hardware alarms. However, devices connected to certain ports cannot communicate with the rest of the network.
+
+The reason might be related to how the older firmware handles VLAN configuration during startup. Unlike newer models, some legacy switches do not always restore the complete port-to-VLAN association correctly, especially when the configuration contains older manually created entries.
+
+I would approach this in a few steps.
+
+First, check the VLAN database and confirm that all expected VLANs are still present. Pay particular attention to VLANs used for management and uplink connectivity.
+
+Next, inspect the affected access ports. Compare their current VLAN assignments with the configuration documentation or a known working port. Sometimes a port can remain operational at Layer 1 while being assigned to the wrong VLAN.
+
+Also, check the trunk configuration on the uplink. Older switches can have limitations in how they handle allowed VLAN lists, and a VLAN that is missing from the trunk will prevent traffic from reaching the upstream device even if the local port configuration looks correct.
+
+If you identify a missing or incorrect VLAN assignment, restore the documented configuration for the affected port and verify connectivity. Make sure the uplink allows the required VLANs as well.
+
+One additional thing worth mentioning: these older switches sometimes have differences between the running configuration and the saved startup configuration. Once the correct configuration has been restored and tested, verify that it is saved so that the same problem does not return after the next restart.
+
+We had a similar case at one of the older production sites. The hardware was perfectly fine, and replacing the switch would not have solved the underlying configuration issue.
+
+I would therefore recommend checking the VLAN and trunk configuration before considering hardware replacement. These legacy devices can behave unexpectedly, but in many cases the problem is related to configuration recovery rather than an actual hardware failure.
+
+Regards, Matti

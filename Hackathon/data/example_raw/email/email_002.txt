@@ -1,0 +1,26 @@
+From: Matti Melua
+To: Sisko Säätö
+Subject: RE: ROU-108 packet loss spiking after firmware update
+
+Hi Sisko,
+
+That sounds like the exact behaviour we have seen after applying the recent firmware patches to the edge routers.
+
+The confusing part is that general connectivity looks fine at first glance:
+
+- device reachability = OK
+- BGP sessions = established
+- CPU and memory load = normal
+
+...but high-priority voice and video streams experience intermittent packet loss.
+
+Before rolling back the firmware version or scheduling a full maintenance window, check the hardware queue drops and buffer utilization metrics.
+
+If the interface counters show normal packet counts but output drops are climbing steadily, try clearing the interface buffer or toggling the adaptive queue management profile.
+
+This has solved the issue in several cases I've seen across the regional distribution nodes.
+
+I don't think this nuance is covered in the standard release notes yet. It is one of those things we have learned from troubleshooting in the field.
+
+Regards,
+Matti

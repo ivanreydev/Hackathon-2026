@@ -1,0 +1,4335 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#teams('fbe2bf47-16c8-47cf-b4a5-4b9b187c508b')/channels('19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2')/messages",
+  "@odata.count": 12,
+  "value": [
+    {
+      "id": "20261107091400000000",
+      "replyToId": null,
+      "etag": "20261107091400000000",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:14:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:14:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091400000000",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Hi Erkki, I'm at the site now. Changed the SFP on transmission node TRN-042.<br>Link is up and alarms cleared, but traffic is still not coming back. Have you seen this before?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107091600000001",
+      "replyToId": null,
+      "etag": "20261107091600000001",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:16:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:16:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091600000001",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes. Is this one of the older units?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107091600001002",
+      "replyToId": null,
+      "etag": "20261107091600001002",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:16:00.001Z",
+      "lastModifiedDateTime": "2026-11-07T09:16:00.001Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091600001002",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes, installed around 2019 I think."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107091800000003",
+      "replyToId": null,
+      "etag": "20261107091800000003",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:18:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:18:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091800000003",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Ok. Don't trust the green link status on those.<br>Sometimes after changing the SFP the interface comes up normally, but the forwarding state doesn't recover correctly."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107091800001004",
+      "replyToId": null,
+      "etag": "20261107091800001004",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:18:00.001Z",
+      "lastModifiedDateTime": "2026-11-07T09:18:00.001Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091800001004",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "So another SFP?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107091900000005",
+      "replyToId": null,
+      "etag": "20261107091900000005",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:19:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:19:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107091900000005",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "No. Usually the SFP is fine.<br>Check whether the traffic counters are actually increasing. If they stay at zero even though the interface is UP, it's probably the issue I've seen before."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092100000006",
+      "replyToId": null,
+      "etag": "20261107092100000006",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:21:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:21:00.000Z",
+      "lastEditedDateTime": "2026-11-07T09:21:00.000Z",
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092100000006",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes. Link UP. RX power looks normal. Counters basically zero."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092200000007",
+      "replyToId": null,
+      "etag": "20261107092200000007",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:22:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:22:00.000Z",
+      "lastEditedDateTime": "2026-11-07T09:22:00.000Z",
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092200000007",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's it.<br>Disable the interface, wait a little, then enable it again. Don't reboot the whole unit unless that fails."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092500000008",
+      "replyToId": null,
+      "etag": "20261107092500000008",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:25:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:25:00.000Z",
+      "lastEditedDateTime": "2026-11-07T09:25:00.000Z",
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092500000008",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Did that. Traffic is back 👍"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092500001009",
+      "replyToId": null,
+      "etag": "20261107092500001009",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:25:00.001Z",
+      "lastModifiedDateTime": "2026-11-07T09:25:00.001Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092500001009",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good. These old units sometimes behave like this after an optical module replacement."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092600000010",
+      "replyToId": null,
+      "etag": "20261107092600000010",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:26:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:26:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092600000010",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Is this documented somewhere?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107092700000011",
+      "replyToId": null,
+      "etag": "20261107092700000011",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T09:27:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T09:27:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107092700000011",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Not that I know of 😄<br>We've just learned it over the years."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107100200000012",
+      "replyToId": null,
+      "etag": "20261107100200000012",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T10:02:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T10:02:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107100200000012",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "FYI: the disable/enable workaround for the older transmission units is no longer needed after firmware 4.2.<br>The fix removes the stuck forwarding state after an optical module replacement."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107100500000013",
+      "replyToId": null,
+      "etag": "20261107100500000013",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T10:05:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T10:05:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107100500000013",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good to know, thanks 👍"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107113000000018",
+      "replyToId": null,
+      "etag": "20261107113000000018",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:30:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:30:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107113000000018",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "11111111-1111-4111-8111-111111111111",
+          "displayName": "Veikko Vikkelä",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Lunch at 12?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107113100000019",
+      "replyToId": null,
+      "etag": "20261107113100000019",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:31:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:31:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107113100000019",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "22222222-2222-4222-8222-222222222222",
+          "displayName": "Erkki Expert",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Ok 👍"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107123200000020",
+      "replyToId": null,
+      "etag": "20261107123200000020",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:32:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:32:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107123200000020",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Hi Olli, I'm looking into an issue at the Tampere site. Some devices lost connectivity after the primary gateway restarted. The gateway is back online, but a few devices are still unreachable."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107123400000021",
+      "replyToId": null,
+      "etag": "20261107123400000021",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:34:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:34:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107123400000021",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Interesting. Are all devices affected, or only some of them?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107123500000022",
+      "replyToId": null,
+      "etag": "20261107123500000022",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:35:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:35:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107123500000022",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Only some. The majority recovered automatically. The affected devices can reach their local switches, but communication with other subnets fails."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107123700000023",
+      "replyToId": null,
+      "etag": "20261107123700000023",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:37:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:37:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107123700000023",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That sounds familiar. We had almost the same symptoms in ticket INC-1938 last year. It was caused by outdated ARP entries after a gateway failover."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107123800000024",
+      "replyToId": null,
+      "etag": "20261107123800000024",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:38:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:38:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107123800000024",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I haven't worked with that before. I thought ARP entries would update automatically when the gateway changed."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107124000000025",
+      "replyToId": null,
+      "etag": "20261107124000000025",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:40:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:40:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107124000000025",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Normally they do, but older devices don't always handle these updates correctly. Some keep the previous IP-to-MAC mapping until the entry expires or is refreshed."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107124200000026",
+      "replyToId": null,
+      "etag": "20261107124200000026",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:42:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:42:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107124200000026",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "So the devices might still be sending traffic to the old gateway MAC address even though the primary gateway is active again?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107124300000027",
+      "replyToId": null,
+      "etag": "20261107124300000027",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:43:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:43:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107124300000027",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Exactly. First, compare the gateway MAC address in the affected devices' ARP tables with the MAC address currently advertised by the active gateway. Don't clear anything yet. Let's confirm the mismatch before changing the state."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107124600000028",
+      "replyToId": null,
+      "etag": "20261107124600000028",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:46:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:46:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107124600000028",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I checked two affected devices. Both have the previous MAC address cached. The gateway is advertising a different one now."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107124800000029",
+      "replyToId": null,
+      "etag": "20261107124800000029",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:48:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:48:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107124800000029",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good find. That matches the previous incident. In INC-1938, we found that the legacy gateway wasn't consistently sending gratuitous ARP announcements after recovering from failover."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107125000000030",
+      "replyToId": null,
+      "etag": "20261107125000000030",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:50:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:50:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107125000000030",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Is that something we can fix without restarting the gateway?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107125200000031",
+      "replyToId": null,
+      "etag": "20261107125200000031",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:52:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:52:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107125200000031",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes, potentially. Follow the approved procedure for refreshing the affected ARP entries on the relevant devices, rather than flushing the entire network's ARP tables. We should also review the gateway's failover configuration and announcement settings."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107125600000032",
+      "replyToId": null,
+      "etag": "20261107125600000032",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T12:56:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T12:56:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107125600000032",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Understood. I'll collect the current ARP entries and compare them with the gateway information before making any changes."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107110400000014",
+      "replyToId": null,
+      "etag": "20261107110400000014",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:04:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:04:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107110400000014",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "We refreshed the affected entries following the maintenance procedure. Connectivity is restored on both devices, and traffic looks normal again."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107110600000015",
+      "replyToId": null,
+      "etag": "20261107110600000015",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:06:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:06:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107110600000015",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Excellent. Please document the findings and link INC-1938 to the new incident. It will help the next person who encounters this behaviour."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107110700000016",
+      "replyToId": null,
+      "etag": "20261107110700000016",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:07:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:07:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107110700000016",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "33333333-3333-4333-8333-333333333333",
+          "displayName": "Emilia Koski",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Will do. Thanks for the help! I wouldn't have thought to check the ARP cache since the gateway itself looked healthy."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107110800000017",
+      "replyToId": null,
+      "etag": "20261107110800000017",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T11:08:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T11:08:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107110800000017",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "44444444-4444-4444-8444-444444444444",
+          "displayName": "Olli Rantanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's why it's worth looking beyond interface status and alarms. The network can look perfectly healthy while individual devices are still using outdated information 😄"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107131200000033",
+      "replyToId": null,
+      "etag": "20261107131200000033",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:12:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:12:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107131200000033",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Has anyone checked SW-208? We're getting intermittent packet loss between the access network and the distribution layer."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107131400000034",
+      "replyToId": null,
+      "etag": "20261107131400000034",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:14:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:14:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107131400000034",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I checked it this morning. The switch is pretty old, so I suspect a hardware issue. We've had similar problems with that model before."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107131500000035",
+      "replyToId": null,
+      "etag": "20261107131500000035",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:15:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:15:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107131500000035",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I don't think we should blame the hardware yet. CPU usage is normal, interfaces are stable, and there are no hardware alarms."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107131600000036",
+      "replyToId": null,
+      "etag": "20261107131600000036",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:16:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:16:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107131600000036",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That doesn't mean the switch is healthy. These older models can have forwarding problems without reporting any obvious alarms."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107131800000037",
+      "replyToId": null,
+      "etag": "20261107131800000037",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:18:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:18:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107131800000037",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Maybe, but replacing a distribution switch because of packet loss without checking the configuration first seems a bit premature."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132000000038",
+      "replyToId": null,
+      "etag": "20261107132000000038",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:20:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:20:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132000000038",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "We've already checked the uplink. No CRC errors, no speed mismatch, and optical levels are fine. What else do you want to check?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132200000039",
+      "replyToId": null,
+      "etag": "20261107132200000039",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:22:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:22:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132200000039",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "The VLAN configuration. I noticed someone changed the allowed VLAN list on the uplink yesterday. Could be related."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132300000040",
+      "replyToId": null,
+      "etag": "20261107132300000040",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:23:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:23:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132300000040",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That was part of a separate maintenance task. It shouldn't affect the other VLANs."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132500000041",
+      "replyToId": null,
+      "etag": "20261107132500000041",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:25:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:25:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132500000041",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "It might if the configuration was applied incorrectly. The change log shows VLAN 340 was removed from the allowed list."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132700000042",
+      "replyToId": null,
+      "etag": "20261107132700000042",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:27:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:27:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132700000042",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Wait, VLAN 340 is used by the monitoring servers. But why would that cause packet loss on other devices?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107132900000043",
+      "replyToId": null,
+      "etag": "20261107132900000043",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:29:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:29:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107132900000043",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "You're both making reasonable points, but let's separate the symptoms. Are the affected devices all using VLAN 340, or are completely unrelated VLANs also experiencing packet loss?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107133100000044",
+      "replyToId": null,
+      "etag": "20261107133100000044",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:31:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:31:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107133100000044",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I checked the affected endpoints. Most of them are in VLAN 340. The others seem to have normal connectivity."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107133200000045",
+      "replyToId": null,
+      "etag": "20261107133200000045",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:32:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:32:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107133200000045",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Okay, that changes things. I assumed the packet loss was happening across the entire switch."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107133400000046",
+      "replyToId": null,
+      "etag": "20261107133400000046",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:34:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:34:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107133400000046",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "This is why we shouldn't jump to hardware replacement. The switch is a legacy model, but that doesn't automatically make it responsible. We need to verify the maintenance change against the approved configuration."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107133800000047",
+      "replyToId": null,
+      "etag": "20261107133800000047",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:38:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:38:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107133800000047",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I compared the current configuration with the backup from last week. VLAN 340 was definitely present before the maintenance."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107134000000048",
+      "replyToId": null,
+      "etag": "20261107134000000048",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:40:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:40:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107134000000048",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Found the change request. The engineer updated the allowed VLAN list but used an incomplete list from an older configuration template. Looks like VLAN 340 was accidentally omitted."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107134200000049",
+      "replyToId": null,
+      "etag": "20261107134200000049",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:42:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:42:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107134200000049",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "So it wasn't the switch after all 😄"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107134300000050",
+      "replyToId": null,
+      "etag": "20261107134300000050",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:43:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:43:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107134300000050",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Not this time. I still think we should plan a replacement eventually, though. That firmware is getting quite old."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107134500000051",
+      "replyToId": null,
+      "etag": "20261107134500000051",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:45:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:45:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107134500000051",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Agreed on the replacement plan, but let's handle the immediate issue first. Restore the approved VLAN configuration through the change procedure, verify connectivity, and monitor the interface counters afterward."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107135700000052",
+      "replyToId": null,
+      "etag": "20261107135700000052",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:57:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:57:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107135700000052",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "55555555-5555-4555-8555-555555555555",
+          "displayName": "Mikko Laaksonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Configuration restored. VLAN 340 is passing traffic again. Packet loss has stopped in the monitoring dashboard."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107135900000053",
+      "replyToId": null,
+      "etag": "20261107135900000053",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T13:59:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T13:59:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107135900000053",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good catch, Mikko. I was too quick to blame the hardware. I'll add the missing VLAN to the maintenance checklist so we don't repeat this."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107140100000054",
+      "replyToId": null,
+      "etag": "20261107140100000054",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:01:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:01:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": "",
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107140100000054",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good outcome. Let's document the root cause and link the configuration change to the incident. And remember: experience is useful, but evidence should win the argument 😉"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107140600000055",
+      "replyToId": null,
+      "etag": "20261107140600000055",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:06:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:06:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107140600000055",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Hi Riku, I've got a strange issue with workstation WS-314. The user says internal applications aren't opening, but internet access works normally."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107140700000056",
+      "replyToId": null,
+      "etag": "20261107140700000056",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:07:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:07:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107140700000056",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Are they getting any error messages, or do the applications just keep loading?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107140800000057",
+      "replyToId": null,
+      "etag": "20261107140800000057",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:08:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:08:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107140800000057",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Mostly DNS errors. They can open public websites, but internal server names don't resolve."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141000000058",
+      "replyToId": null,
+      "etag": "20261107141000000058",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:10:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:10:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141000000058",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Sounds like DNS. Did you check whether the workstation received the correct DNS server address from DHCP?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141100000059",
+      "replyToId": null,
+      "etag": "20261107141100000059",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:11:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:11:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141100000059",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Not yet. I was going to restart the switch port because I thought it might be a connectivity issue."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141200000060",
+      "replyToId": null,
+      "etag": "20261107141200000060",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:12:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:12:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141200000060",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I'd hold off on that. If internet access works and the user has a valid IP address, the switch is probably doing its job. Let's check DNS first."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141400000061",
+      "replyToId": null,
+      "etag": "20261107141400000061",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:14:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:14:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141400000061",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Just checked the network settings. The DNS server address is different from the one assigned to other workstations in the same subnet."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141500000062",
+      "replyToId": null,
+      "etag": "20261107141500000062",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:15:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:15:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141500000062",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "There we go. It might have been manually configured at some point. Check whether the adapter is supposed to obtain DNS settings automatically."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141700000063",
+      "replyToId": null,
+      "etag": "20261107141700000063",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:17:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:17:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141700000063",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "It should use DHCP. Someone must have entered the old DNS address manually."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107141800000064",
+      "replyToId": null,
+      "etag": "20261107141800000064",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:18:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:18:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107141800000064",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That would explain it. Restore the approved automatic DNS configuration, renew the DHCP settings, and test an internal hostname again."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107142100000065",
+      "replyToId": null,
+      "etag": "20261107142100000065",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:21:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:21:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107142100000065",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Done. The workstation received the correct DNS servers, and the internal applications are opening now."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107142200000066",
+      "replyToId": null,
+      "etag": "20261107142200000066",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:22:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:22:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107142200000066",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Perfect. No switch restart or network changes needed after all 😄"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107142300000067",
+      "replyToId": null,
+      "etag": "20261107142300000067",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:23:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:23:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107142300000067",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "88888888-8888-4888-8888-888888888888",
+          "displayName": "Jenna Aaltonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Definitely an easier fix than I expected. I'll add the incorrect DNS configuration to the ticket notes."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107142400000068",
+      "replyToId": null,
+      "etag": "20261107142400000068",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T14:24:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T14:24:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107142400000068",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "99999999-9999-4999-8999-999999999999",
+          "displayName": "Riku Heikkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good idea. Always worth checking the basics before troubleshooting the entire network!"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150200000069",
+      "replyToId": null,
+      "etag": "20261107150200000069",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:02:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:02:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150200000069",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Hey, I think I might have broken something on SW-104. I was cleaning up the VLAN configuration and now a few people in the office have lost network access."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150300000070",
+      "replyToId": null,
+      "etag": "20261107150300000070",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:03:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:03:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150300000070",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Okay, first of all, don't make any more changes 😄 What exactly did you modify?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150400000071",
+      "replyToId": null,
+      "etag": "20261107150400000071",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:04:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:04:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150400000071",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I removed what I thought were unused VLANs from the switch. The ports are still UP, but devices in one office area can't reach the internal servers."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150500000072",
+      "replyToId": null,
+      "etag": "20261107150500000072",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:05:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:05:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150500000072",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Did you remove VLANs from the database or change the allowed VLAN list on the uplink?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150600000073",
+      "replyToId": null,
+      "etag": "20261107150600000073",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:06:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:06:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150600000073",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "The allowed VLAN list. I thought the VLANs that weren't being used locally could be removed."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150700000074",
+      "replyToId": null,
+      "etag": "20261107150700000074",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:07:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:07:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150700000074",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "30303030-3030-4030-8030-303030303030",
+          "displayName": "Sara Mäkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Oh no. That uplink carries traffic for several other switches. A VLAN can be needed on the trunk even if there aren't any devices using it directly on this switch."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107150800000075",
+      "replyToId": null,
+      "etag": "20261107150800000075",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:08:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:08:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107150800000075",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I didn't realise that. I removed VLAN 120 and VLAN 180 because I couldn't find any active devices assigned to them."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107151000000076",
+      "replyToId": null,
+      "etag": "20261107151000000076",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:10:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:10:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107151000000076",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That explains the symptoms. VLAN 120 is used by the office workstations, and VLAN 180 carries some internal services. They need to pass through this switch even though their endpoints are connected elsewhere."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107151100000077",
+      "replyToId": null,
+      "etag": "20261107151100000077",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:11:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:11:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107151100000077",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Can I just add them back to the list?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107151200000078",
+      "replyToId": null,
+      "etag": "20261107151200000078",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:12:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:12:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107151200000078",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes, but first let's compare the current configuration with the last approved backup. We need to make sure nothing else was accidentally removed. We'll restore the missing entries through the normal change procedure."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107151600000079",
+      "replyToId": null,
+      "etag": "20261107151600000079",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:16:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:16:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107151600000079",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "30303030-3030-4030-8030-303030303030",
+          "displayName": "Sara Mäkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I've checked the configuration backup. Those are the only two missing VLANs from the trunk. Everything else matches."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107151900000080",
+      "replyToId": null,
+      "etag": "20261107151900000080",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:19:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:19:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107151900000080",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "The approved configuration has been restored with Antti supervising. Should we test the affected workstations now?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152100000081",
+      "replyToId": null,
+      "etag": "20261107152100000081",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:21:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:21:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152100000081",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes. Check connectivity to the internal servers first, then verify that the monitoring system shows normal traffic on both VLANs."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152400000082",
+      "replyToId": null,
+      "etag": "20261107152400000082",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:24:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:24:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152400000082",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Everything is working again. Both VLANs are passing traffic and the users have connectivity."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152500000083",
+      "replyToId": null,
+      "etag": "20261107152500000083",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:25:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:25:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152500000083",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "30303030-3030-4030-8030-303030303030",
+          "displayName": "Sara Mäkinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good. I've updated the incident with the configuration backup and the details of what happened."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152600000084",
+      "replyToId": null,
+      "etag": "20261107152600000084",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:26:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:26:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152600000084",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Sorry about that. I honestly thought I was just removing unused configuration."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152800000085",
+      "replyToId": null,
+      "etag": "20261107152800000085",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:28:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:28:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152800000085",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Don't worry, these things happen. But remember that network devices often forward traffic for other parts of the network. Just because you don't see a local device using a VLAN doesn't mean it's unnecessary."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107152900000086",
+      "replyToId": null,
+      "etag": "20261107152900000086",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:29:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:29:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107152900000086",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "10101010-1010-4010-8010-101010101010",
+          "displayName": "Daniel Koskinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Lesson learned. I'll definitely check the topology and configuration backup before touching trunk settings next time."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107153000000087",
+      "replyToId": null,
+      "etag": "20261107153000000087",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T15:30:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T15:30:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107153000000087",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "20202020-2020-4020-8020-202020202020",
+          "displayName": "Antti Lehtinen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's the right attitude. And next time, ask before cleaning up production switches 😂"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107164200000088",
+      "replyToId": null,
+      "etag": "20261107164200000088",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:42:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:42:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107164200000088",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Morning. We've got another connectivity issue at the Helsinki office. The application servers are reachable from the local network, but connections from the remote sites are timing out."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107164400000089",
+      "replyToId": null,
+      "etag": "20261107164400000089",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:44:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:44:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107164400000089",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Didn't we have something similar last month? I remember working on a firewall issue for the same server subnet."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107164500000090",
+      "replyToId": null,
+      "etag": "20261107164500000090",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:45:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:45:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107164500000090",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Yes, ticket INC-3264. But that one was related to a routing issue. The routes look correct this time."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107164700000091",
+      "replyToId": null,
+      "etag": "20261107164700000091",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:47:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:47:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107164700000091",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I found something in the change history. There was a firewall policy update yesterday evening, linked to request CHG-1842."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107164900000092",
+      "replyToId": null,
+      "etag": "20261107164900000092",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:49:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:49:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107164900000092",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Interesting. Was that the change requested by the application team? I remember receiving an email about opening a new connection for their monitoring service."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107165000000093",
+      "replyToId": null,
+      "etag": "20261107165000000093",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:50:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:50:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107165000000093",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I found the email. It was sent by Thomas from the application team on Tuesday. The subject was 'Firewall access required for monitoring migration'."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107165200000094",
+      "replyToId": null,
+      "etag": "20261107165200000094",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:52:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:52:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107165200000094",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Can you check whether the request included only the new monitoring connection or whether they asked to modify the existing rules as well?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107165400000095",
+      "replyToId": null,
+      "etag": "20261107165400000095",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:54:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:54:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107165400000095",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Just checked. The email specifically says that existing remote-site access should remain unchanged. But the change notes mention that an older firewall group was replaced."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107165600000096",
+      "replyToId": null,
+      "etag": "20261107165600000096",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:56:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:56:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107165600000096",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's not good. Could the replacement group be missing the remote-site subnet objects?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107165800000097",
+      "replyToId": null,
+      "etag": "20261107165800000097",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T16:58:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T16:58:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107165800000097",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Possibly. I compared the current policy with the configuration from INC-3264. Two remote-site networks are missing from the source group."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170000000098",
+      "replyToId": null,
+      "etag": "20261107170000000098",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:00:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:00:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170000000098",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Before we conclude anything, check the original change request and its approval comments. We need to establish whether those networks were intentionally excluded or simply overlooked."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170300000099",
+      "replyToId": null,
+      "etag": "20261107170300000099",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:03:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:03:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170300000099",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "The approval comments don't mention removing any existing access. It looks like the new group was created from an outdated spreadsheet attached to the email."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170500000100",
+      "replyToId": null,
+      "etag": "20261107170500000100",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:05:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:05:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170500000100",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "So we basically copied an old network list and replaced the existing group without checking all its members?"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170600000101",
+      "replyToId": null,
+      "etag": "20261107170600000101",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:06:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:06:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170600000101",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's what it looks like. I also found an email from the remote-site team sent after the change. They reported connection failures, but it was attached to a different service ticket."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170800000102",
+      "replyToId": null,
+      "etag": "20261107170800000102",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:08:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:08:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170800000102",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Which ticket? We should probably link that to the current incident."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107170900000103",
+      "replyToId": null,
+      "etag": "20261107170900000103",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:09:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:09:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107170900000103",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "SR-7712. It was originally categorized as an application issue, so nobody connected it to the firewall maintenance."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107171200000104",
+      "replyToId": null,
+      "etag": "20261107171200000104",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:12:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:12:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107171200000104",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Okay, now we have a likely explanation. Let's document the relationship between INC-3264, CHG-1842 and SR-7712. Once the approved source networks have been confirmed with the application team, we can correct the firewall group through the change procedure."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107171900000105",
+      "replyToId": null,
+      "etag": "20261107171900000105",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:19:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:19:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107171900000105",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "I've emailed Thomas to confirm the two missing subnets. He replied that both should definitely retain access. The spreadsheet was an old version."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107173100000106",
+      "replyToId": null,
+      "etag": "20261107173100000106",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:31:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:31:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107173100000106",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "The approved correction has been applied. I've tested connectivity from both remote sites, and the application servers are responding again."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107173300000107",
+      "replyToId": null,
+      "etag": "20261107173300000107",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:33:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:33:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107173300000107",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "66666666-6666-4666-8666-666666666666",
+          "displayName": "Laura Nieminen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Great. I'll update the incident and attach the email confirmation from Thomas so there's a clear record of the requested access."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107173500000108",
+      "replyToId": null,
+      "etag": "20261107173500000108",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:35:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:35:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107173500000108",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Good work. Please also add a note to CHG-1842 explaining that the outdated spreadsheet caused existing network entries to be omitted. We should avoid closing the original change without documenting that."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107173700000109",
+      "replyToId": null,
+      "etag": "20261107173700000109",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:37:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:37:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107173700000109",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "40404040-4040-4040-8040-404040404040",
+          "displayName": "Mikael Salonen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "Will do. Quite a lot of detective work for two missing network entries 😄"
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    },
+    {
+      "id": "20261107173800000110",
+      "replyToId": null,
+      "etag": "20261107173800000110",
+      "messageType": "message",
+      "createdDateTime": "2026-11-07T17:38:00.000Z",
+      "lastModifiedDateTime": "2026-11-07T17:38:00.000Z",
+      "lastEditedDateTime": null,
+      "deletedDateTime": null,
+      "subject": null,
+      "summary": null,
+      "chatId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2",
+      "importance": "normal",
+      "locale": "en-us",
+      "webUrl": "https://teams.microsoft.com/l/message/19%3A4a95f7d8db4c4e7fae857bcebe0623e6%40thread.tacv2/20261107173800000110",
+      "policyViolation": null,
+      "eventDetail": null,
+      "from": {
+        "application": null,
+        "device": null,
+        "user": {
+          "id": "77777777-7777-4777-8777-777777777777",
+          "displayName": "Petri Virtanen",
+          "userIdentityType": "aadUser"
+        }
+      },
+      "body": {
+        "contentType": "html",
+        "content": "That's infrastructure work sometimes. The actual fix can take five minutes. Finding out why it happened can take half a day."
+      },
+      "channelIdentity": {
+        "teamId": "fbe2bf47-16c8-47cf-b4a5-4b9b187c508b",
+        "channelId": "19:4a95f7d8db4c4e7fae857bcebe0623e6@thread.tacv2"
+      },
+      "attachments": [],
+      "mentions": [],
+      "reactions": [],
+      "messageHistory": []
+    }
+  ]
+}
