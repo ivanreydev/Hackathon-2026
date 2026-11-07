@@ -1,3 +1,1 @@
-# general_vectorization v1
-
-Within the category of {attachement 1} score each of the options in {attachement 2} from 0 to 1000 on how important they are to the situation in {attachement 3}. It is possible that none of them are important, if so, all scores should be low. Return only comma separated integers.
+Within the category of {attachement 1} score each of the options from 0 to 1000 on how important they are to the situation in {attachement 3}. It is possible that none of them are important, if so, all scores should be low. Return only comma separated integers.

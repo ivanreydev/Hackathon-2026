@@ -1,3 +1,1 @@
-# expand_categories
-
-Within the category of {attachement 1}, there are significant aspects of the situation in {attachement 2} that are not covered by the options in {attachement 3} create a modest number of extra options in order to represent it. Keep them short. As an example, for category weather, add thunder, heat, or cold.
+Within the category of {attachement 1}, there are significant aspects of the situation in {attachement 2} that are not covered by the options. Create one or a small number of extra options in order to represent it. Keep them short. As an example, for category weather, add thunder, heat, or cold.

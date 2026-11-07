@@ -1,0 +1,1 @@
+The situation in {attachement 1} is not adequately covered by the categories in {attachement 2} create a new category, and a small number of options to represent it. As an example, for category weather, add thunder, heat, or cold. Don't add options preemptively, only add what is relevant for this particular sitution. Return only an array of string.
