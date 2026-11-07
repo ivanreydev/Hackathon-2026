@@ -11,12 +11,13 @@ export async function mockSearch(req) {
         const text = (s.summary + " " + s.categories.join(" ") + " " + s.entities.join(" ")).toLowerCase();
         const hits = words.filter((w) => text.includes(w)).length;
         const boost = words.length ? hits / words.length : 0;
-        return { ...s, score: Math.min(1, s.score * 0.7 + boost * 0.3) };
+        // matching words pull the situation closer (smaller distance)
+        return { ...s, distance: Math.round(s.distance * (1 - 0.5 * boost)) };
     })
-        .sort((a, b) => b.score - a.score)
+        .sort((a, b) => a.distance - b.distance)
         .slice(0, req.limit ?? 10)
         .map(({ problems, solutions, ...hit }) => hit);
-    return { query: req, results };
+    return results; // plain list, best match first, like the backend
 }
 export async function mockGetSituation(id) {
     await delay();

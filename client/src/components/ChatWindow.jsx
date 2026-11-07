@@ -29,7 +29,7 @@ export default function ChatWindow({ sort, onSortChange, selectedId, onSelect })
 
   return (
     <section className="chat" aria-label="Chat">
-      <ChatHeader title="Placeholder" />
+      <ChatHeader title="SinceRecall" />
       <MessageList
         messages={messages}
         resultsProps={{ sort, onSortChange, selectedId, onSelect }}

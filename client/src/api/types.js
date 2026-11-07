@@ -28,26 +28,26 @@
  */
 
 /**
- * One ranked result. Scores are computed in the backend; the UI only displays and sorts.
- * The backend sends relevancy, recency and score on a 0..1000 scale.
- * client.js divides them by 1000, so inside the frontend they are 0..1.
- * @typedef {Object} SituationHit
+ * One result as the backend sends it: raw values, no scaling.
+ * @typedef {Object} RawHit
  * @property {string} id
  * @property {string} summary
  * @property {string[]} categories
  * @property {string[]} entities
- * @property {number} relevancy  0..1 in the UI (backend: 0..1000)
- * @property {number} recency    0..1 in the UI (backend: 0..1000)
- * @property {number} score      combined, default sort; 0..1 in the UI (backend: 0..1000)
+ * @property {number} distance   raw vector-index distance, lower = closer match
+ * @property {string} timestamp  ISO time of the situation
  * @property {SituationStatus} status
  * @property {string[]} [why]    what matched, e.g. ["entity: TRN-042"]
  */
 
 /**
- * POST /api/situations/search  (response)
- * @typedef {Object} SearchResponse
- * @property {SearchRequest} query
- * @property {SituationHit[]} results
+ * A result inside the frontend: client.js adds 0..1 values computed from the raw ones.
+ * @typedef {RawHit & { relevancy: number, recency: number, score: number }} SituationHit
+ */
+
+/**
+ * POST /api/situations/search  (response): a plain list, best match first.
+ * @typedef {RawHit[]} SearchResponse
  */
 
 /**

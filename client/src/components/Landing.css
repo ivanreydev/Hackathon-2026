@@ -1,0 +1,200 @@
+﻿.landing {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow-x: clip;
+  background: var(--surface);
+  /* Secondary text in a navy tint (about 6.5:1 on white), not a neutral grey */
+  --landing-ink-soft: color-mix(in srgb, var(--navy) 70%, white);
+}
+
+.landing .topbar-logo {
+  height: 40px;
+}
+
+.landing .footer {
+  color: var(--landing-ink-soft);
+}
+
+.landing ::selection {
+  background: var(--electric);
+  color: #fff;
+}
+
+.landing-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px 64px;
+  text-align: center;
+}
+
+/* ---- The name ---------------------------------------------------------- */
+
+.landing-name {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(56px, 12vw, 176px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--brand);
+  white-space: nowrap;
+}
+
+.landing-word {
+  display: inline-block;
+}
+
+.landing-word-1 {
+  color: var(--electric);
+}
+
+.landing-letter {
+  display: inline-block;
+  font-weight: var(--w);
+  transition: font-weight 260ms cubic-bezier(0.16, 1, 0.3, 1);
+  animation: letter-in 900ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  animation-delay: calc(var(--i) * 45ms + 120ms);
+}
+
+/* Weight grows from a hairline while the letter rises into place. */
+@keyframes letter-in {
+  from {
+    font-weight: 100;
+    opacity: 0.15;
+    transform: translateY(0.22em);
+    filter: blur(6px);
+  }
+  to {
+    font-weight: var(--rest);
+    opacity: 1;
+    transform: none;
+    filter: blur(0);
+  }
+}
+
+/* Support line and button follow the name in. */
+.landing-line,
+.landing-cta {
+  animation: rise-in 700ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.landing-line {
+  margin: 28px 0 0;
+  max-width: 56ch;
+  font-size: clamp(16px, 1.4vw, 18px);
+  color: var(--landing-ink-soft);
+  text-wrap: balance;
+  animation-delay: 700ms;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ---- Button ------------------------------------------------------------ */
+
+.landing-cta {
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 28px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px -8px rgb(0 18 180 / 0.55);
+  transition:
+    background-color 160ms ease-out,
+    box-shadow 160ms ease-out,
+    transform 160ms ease-out;
+  animation-delay: 820ms;
+
+  svg {
+    transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  &:hover {
+    background: var(--electric);
+    box-shadow: 0 10px 24px -10px rgb(0 25 255 / 0.6);
+  }
+
+  &:hover svg {
+    transform: translateX(3px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  &:focus-visible {
+    outline: 3px solid var(--electric);
+    outline-offset: 4px;
+  }
+}
+
+/* ---- Exit: letters thin out and drop, then the chat takes over -------- */
+
+.is-leaving .landing-letter {
+  /* 280ms + 10 letters x 6ms = 340ms, inside EXIT_MS in Landing.jsx */
+  animation: letter-out 280ms cubic-bezier(0.7, 0, 0.84, 0) forwards;
+  animation-delay: calc(var(--i) * 6ms);
+}
+
+.is-leaving .landing-line,
+.is-leaving .landing-cta {
+  animation: fade-out 240ms ease-in forwards;
+}
+
+@keyframes letter-out {
+  to {
+    font-weight: 100;
+    opacity: 0;
+    transform: translateY(0.18em);
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+/* ---- Small screens: the two words stack ------------------------------- */
+
+@media (max-width: 600px) {
+  .landing-name {
+    font-size: clamp(48px, 21vw, 128px);
+    line-height: 0.92;
+  }
+
+  .landing-word {
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-letter,
+  .landing-line,
+  .landing-cta,
+  .is-leaving .landing-letter,
+  .is-leaving .landing-line,
+  .is-leaving .landing-cta {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* The landing page is a centred composition, so its footer is centred too. */
+.landing .footer {
+  text-align: center;
+  text-wrap: balance;
+}
