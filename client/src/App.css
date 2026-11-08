@@ -145,6 +145,8 @@
     flex: 1;
     resize: none;
     min-height: 44px;
+    field-sizing: content; /* grow to fit the text instead of cutting it off */
+    max-height: 140px;
     padding: 10px 12px;
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
@@ -744,4 +746,152 @@
   .chat {
     height: calc(100svh - 32px);
   }
+}
+
+/* ---- Conversations sidebar ------------------------------------------- */
+
+.conversations {
+  flex: none;
+  width: 248px;
+  height: min(1315px, calc(100svh - 128px));
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+/* Same height as the chat header beside it */
+.conversations-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: calc(17px * 1.2 + 28px);
+  padding: 0 10px 0 16px;
+  border-bottom: 1px solid var(--border);
+
+  h2 {
+    margin: 0;
+    font: 500 17px/1.2 var(--display);
+    color: var(--brand);
+  }
+}
+
+.conversations-new {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--brand);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 160ms ease-out,
+    border-color 160ms ease-out;
+
+  &:hover:not(:disabled) {
+    background: color-mix(in srgb, var(--electric) 7%, white);
+    border-color: color-mix(in srgb, var(--electric) 35%, white);
+  }
+
+  &:disabled {
+    color: var(--muted);
+    cursor: default;
+    opacity: 0.6;
+  }
+}
+
+.conversation-list {
+  flex: 1;
+  margin: 0;
+  padding: 8px;
+  list-style: none;
+  overflow-y: auto;
+  display: grid;
+  align-content: start;
+  gap: 2px;
+}
+
+.conversation {
+  width: 100%;
+  display: grid;
+  gap: 2px;
+  padding: 9px 10px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 160ms ease-out;
+
+  &:hover {
+    background: var(--bot-bg);
+  }
+
+  &[aria-current] {
+    background: color-mix(in srgb, var(--electric) 8%, white);
+  }
+
+  &[aria-current] .conversation-title {
+    color: var(--brand);
+    font-weight: 600;
+  }
+}
+
+.conversation-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: var(--navy);
+}
+
+.conversation-meta {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Narrow screens: the sidebar sits above the chat as a sideways-scrolling row */
+@media (max-width: 900px) {
+  .conversations {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+  }
+
+  .conversation-list {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    li {
+      flex: none;
+      width: 200px;
+    }
+  }
+}
+
+/* ---- Logo hand-off between the landing page and the chat ------------- */
+
+/* One logo per page carries this name; the browser animates it between the two spots */
+.elisa-logo-shared {
+  view-transition-name: elisa-logo;
+}
+
+::view-transition-group(elisa-logo) {
+  animation-duration: 650ms;
+  animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 380ms;
 }

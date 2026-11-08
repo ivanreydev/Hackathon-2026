@@ -1,15 +1,20 @@
-﻿.landing {
+.landing {
   min-height: 100svh;
   display: grid;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   overflow-x: clip;
   background: var(--surface);
   /* Secondary text in a navy tint (about 6.5:1 on white), not a neutral grey */
   --landing-ink-soft: color-mix(in srgb, var(--navy) 70%, white);
 }
 
-.landing .topbar-logo {
-  height: 40px;
+/* The logo sits above the name; on entering the chat it glides to the corner (see App.css) */
+.landing-logo {
+  display: block;
+  height: 56px;
+  width: auto;
+  margin-bottom: 28px;
+  animation: rise-in 700ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 
 .landing .footer {
@@ -46,10 +51,6 @@
   display: inline-block;
 }
 
-.landing-word-1 {
-  color: var(--electric);
-}
-
 .landing-letter {
   display: inline-block;
   font-weight: var(--w);
@@ -76,7 +77,7 @@
 
 /* Support line and button follow the name in. */
 .landing-line,
-.landing-cta {
+.landing-cta-wrap {
   animation: rise-in 700ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 
@@ -98,33 +99,32 @@
 
 /* ---- Button ------------------------------------------------------------ */
 
-.landing-cta {
+.landing-cta-wrap {
+  position: relative;
+  display: inline-block;
   margin-top: 40px;
+  animation-delay: 820ms;
+}
+
+/* The real button is transparent; its blue shape is .cta-goo-body behind it */
+.landing-cta {
+  position: relative;
+  z-index: 2;
   display: inline-flex;
   align-items: center;
   gap: 10px;
   padding: 15px 28px;
   border: 0;
   border-radius: 999px;
-  background: var(--brand);
+  background: none;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
   cursor: pointer;
-  box-shadow: 0 6px 18px -8px rgb(0 18 180 / 0.55);
-  transition:
-    background-color 160ms ease-out,
-    box-shadow 160ms ease-out,
-    transform 160ms ease-out;
-  animation-delay: 820ms;
+  transition: transform 120ms ease-out;
 
   svg {
     transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  &:hover {
-    background: var(--electric);
-    box-shadow: 0 10px 24px -10px rgb(0 25 255 / 0.6);
   }
 
   &:hover svg {
@@ -132,7 +132,7 @@
   }
 
   &:active {
-    transform: translateY(1px);
+    transform: scale(0.95);
   }
 
   &:focus-visible {
@@ -141,16 +141,106 @@
   }
 }
 
+/* Room around the pill for bubbles to fly into; the goo filter melts them together */
+.cta-goo {
+  position: absolute;
+  inset: -48px;
+  z-index: 1;
+  filter: url('#cta-goo');
+  pointer-events: none;
+  transition: transform 120ms ease-out;
+}
+
+.cta-goo-body,
+.cta-bubble {
+  position: absolute;
+  background: var(--brand);
+  transition: background-color 160ms ease-out;
+}
+
+.cta-goo-body {
+  inset: 48px;
+  border-radius: 999px;
+}
+
+/* At rest the bubbles hide inside the pill's corners */
+.cta-bubble {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  scale: var(--s);
+  opacity: 0; /* only shown while popping, so no outlines show at rest */
+}
+
+.cta-bubble-tl {
+  top: 56px;
+  left: 70px;
+}
+
+.cta-bubble-br {
+  right: 70px;
+  bottom: 56px;
+}
+
+.landing-cta:is(:hover, :focus-visible) + .cta-goo {
+  .cta-goo-body,
+  .cta-bubble {
+    background: var(--electric);
+  }
+
+  .cta-goo-body {
+    animation: cta-squish 600ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .cta-bubble {
+    animation: cta-pop 800ms cubic-bezier(0.3, 0.7, 0.4, 1) var(--d) both;
+  }
+}
+
+.landing-cta:active + .cta-goo {
+  transform: scale(0.95);
+}
+
+/* Bubbles drift out and shrink away, stretching off the pill as they go */
+@keyframes cta-pop {
+  from {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+    scale: var(--s);
+  }
+  to {
+    opacity: 1;
+    translate: var(--x) var(--y);
+    scale: 0;
+  }
+}
+
+/* The pill wobbles as the bubbles leave */
+@keyframes cta-squish {
+  40% {
+    scale: 1.05 0.9;
+  }
+}
+
+.cta-goo-filter {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 /* ---- Exit: letters thin out and drop, then the chat takes over -------- */
 
 .is-leaving .landing-letter {
-  /* 280ms + 10 letters x 6ms = 340ms, inside EXIT_MS in Landing.jsx */
+  /* 280ms + 5 letters x 6ms = 310ms, inside EXIT_MS in Landing.jsx */
   animation: letter-out 280ms cubic-bezier(0.7, 0, 0.84, 0) forwards;
   animation-delay: calc(var(--i) * 6ms);
 }
 
 .is-leaving .landing-line,
-.is-leaving .landing-cta {
+.is-leaving .landing-cta-wrap {
   animation: fade-out 240ms ease-in forwards;
 }
 
@@ -168,26 +258,24 @@
   }
 }
 
-/* ---- Small screens: the two words stack ------------------------------- */
+/* ---- Small screens: the short name stays on one line, just larger ----- */
 
 @media (max-width: 600px) {
   .landing-name {
     font-size: clamp(48px, 21vw, 128px);
     line-height: 0.92;
   }
-
-  .landing-word {
-    display: block;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .landing-letter,
   .landing-line,
-  .landing-cta,
+  .landing-cta-wrap,
   .is-leaving .landing-letter,
   .is-leaving .landing-line,
-  .is-leaving .landing-cta {
+  .is-leaving .landing-cta-wrap,
+  .landing-cta:is(:hover, :focus-visible) + .cta-goo .cta-goo-body,
+  .landing-cta:is(:hover, :focus-visible) + .cta-goo .cta-bubble {
     animation: none;
     transition: none;
   }
@@ -198,3 +286,4 @@
   text-align: center;
   text-wrap: balance;
 }
+

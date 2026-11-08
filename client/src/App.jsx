@@ -1,8 +1,11 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { flushSync } from 'react-dom'
 import ChatWindow from './components/ChatWindow'
 import SituationDetail from './components/SituationDetail'
 import SourceView from './components/SourceView'
 import Landing from './components/Landing'
+import ConversationList from './components/ConversationList'
+import { useConversations } from './lib/conversations'
 import './App.css'
 
 const CHAT_HASH = '#chat'
@@ -11,12 +14,23 @@ export default function App() {
   // The landing page shows until the URL is #chat, so Back returns to it
   const [entered, setEntered] = useState(() => window.location.hash === CHAT_HASH)
   useEffect(() => {
-    const onHash = () => setEntered(window.location.hash === CHAT_HASH)
+    // Switching pages runs as a view transition, so the Elisa logo glides between
+    // its spot above the name and the chat page's corner (both share a transition name)
+    const onHash = () => {
+      const next = window.location.hash === CHAT_HASH
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      if (!document.startViewTransition || reduced) {
+        setEntered(next)
+        return
+      }
+      document.startViewTransition(() => flushSync(() => setEntered(next)))
+    }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
 
   // Search queries live on each chat message, so earlier results stay visible
+  const chats = useConversations()
   const [selectedId, setSelectedId] = useState(null)
   const [sourceKey, setSourceKey] = useState(null)
   const [sort, setSort] = useState('score')
@@ -44,6 +58,17 @@ export default function App() {
     setSourceKey(null)
   }
 
+  // A detail panel belongs to the conversation it was opened from
+  function switchConversation(id) {
+    if (id !== chats.active.id) closePanel()
+    chats.select(id)
+  }
+
+  function createConversation() {
+    closePanel()
+    chats.create()
+  }
+
   if (!entered) {
     return <Landing onEnter={() => (window.location.hash = CHAT_HASH)} />
   }
@@ -52,12 +77,21 @@ export default function App() {
     <>
       <header className="topbar">
         {/* Clearing the #chat hash brings back the landing page */}
-        <a href="#" className="topbar-home" aria-label="Back to the SinceRecall start page">
-          <img src="/elisa-logo.svg" alt="" className="topbar-logo" />
+        <a href="#" className="topbar-home" aria-label="Back to the Solmu start page">
+          <img src="/elisa-logo.svg" alt="" className="topbar-logo elisa-logo-shared" />
         </a>
       </header>
       <main className="page">
+        <ConversationList
+          conversations={chats.conversations}
+          activeId={chats.active.id}
+          onSelect={switchConversation}
+          onCreate={createConversation}
+        />
         <ChatWindow
+          key={chats.active.id}
+          messages={chats.active.messages}
+          onSend={chats.send}
           sort={sort}
           onSortChange={setSort}
           selectedId={selectedId}

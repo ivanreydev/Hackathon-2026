@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import './Landing.css'
 
-// "Since" rests light, "Recall" rests heavy: the past brought back into focus.
+// The name rests heavy in brand blue and thickens under the cursor.
 const WORDS = [
-  { text: 'Since', rest: 300, peak: 800 },
-  { text: 'Recall', rest: 700, peak: 900 },
+  { text: 'Solmu', rest: 700, peak: 900 },
 ]
 const LETTERS = WORDS.flatMap((w, wi) =>
   [...w.text].map((ch) => ({ ch, word: wi, rest: w.rest, peak: w.peak })),
@@ -12,6 +11,16 @@ const LETTERS = WORDS.flatMap((w, wi) =>
 // Last letter: delay (n-1)*45 + 120, plus the 900ms rise (see Landing.css)
 const ENTRANCE_MS = (LETTERS.length - 1) * 45 + 120 + 900 + 30
 const EXIT_MS = 350
+
+// Bubbles that pop off the button's corners on hover: where they fly (px), when, and how big
+const BUBBLES = [
+  { corner: 'tl', x: -34, y: -26, delay: 0, size: 1 },
+  { corner: 'tl', x: -8, y: -40, delay: 60, size: 0.8 },
+  { corner: 'tl', x: -46, y: -4, delay: 110, size: 0.7 },
+  { corner: 'br', x: 34, y: 26, delay: 30, size: 1 },
+  { corner: 'br', x: 8, y: 40, delay: 90, size: 0.8 },
+  { corner: 'br', x: 46, y: 4, delay: 140, size: 0.7 },
+]
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -82,12 +91,10 @@ export default function Landing({ onEnter }) {
   let index = 0
   return (
     <div className={`landing${leaving ? ' is-leaving' : ''}`}>
-      <header className="topbar">
-        <img src="/elisa-logo.svg" alt="Elisa" className="topbar-logo" />
-      </header>
-
       <main className="landing-stage">
-        <h1 className="landing-name" aria-label="SinceRecall">
+        {/* Shares a view-transition name with the chat page's corner logo, so it glides there */}
+        <img src="/elisa-logo.svg" alt="Elisa" className="landing-logo elisa-logo-shared" />
+        <h1 className="landing-name" aria-label="Solmu">
           {WORDS.map((word, wi) => (
             <span key={word.text} className={`landing-word landing-word-${wi}`} aria-hidden="true">
               {[...word.text].map((ch) => {
@@ -109,20 +116,42 @@ export default function Landing({ onEnter }) {
 
         <p className="landing-line">Field know-how from past chats and emails, found again.</p>
 
-        <button type="button" className="landing-cta" onClick={enter}>
-          Open the assistant
-          <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-            <path
-              d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.75"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button>
+        {/* Bubble button: the blue shape is drawn behind the label, and on hover small
+            bubbles pop off its corners; the goo filter melts them into the pill. */}
+        <span className="landing-cta-wrap">
+          <button type="button" className="landing-cta" onClick={enter}>
+            Open the assistant
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path
+                d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
+          <span className="cta-goo" aria-hidden="true">
+            <span className="cta-goo-body" />
+            {BUBBLES.map((b, i) => (
+              <span
+                key={i}
+                className={`cta-bubble cta-bubble-${b.corner}`}
+                style={{ '--x': `${b.x}px`, '--y': `${b.y}px`, '--d': `${b.delay}ms`, '--s': b.size }}
+              />
+            ))}
+          </span>
+        </span>
       </main>
+
+      <svg className="cta-goo-filter" aria-hidden="true" focusable="false">
+        <filter id="cta-goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </svg>
 
       <footer className="footer">Team A-stars · Elisa Company Challenge · Since AI Hackathon 2026</footer>
     </div>
