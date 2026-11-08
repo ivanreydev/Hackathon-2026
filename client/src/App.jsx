@@ -89,6 +89,39 @@ export default function App() {
   const [sort, setSort] = useState('score')
   const panelRef = useRef(null)
 
+  // Keyboard shortcuts on the chat page:
+  //   /    jump to the message box (unless already typing somewhere)
+  //   Esc  step out of the side panel: source → detail → closed, then hand focus
+  //        back to the result that opened it
+  useEffect(() => {
+    if (!entered) return
+    const onKey = (e) => {
+      if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey) return
+      const t = e.target
+      const typing = t instanceof HTMLElement && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))
+
+      if (e.key === '/' && !typing) {
+        e.preventDefault()
+        document.querySelector('.composer textarea')?.focus()
+        return
+      }
+
+      // The delete confirmation handles its own Escape
+      if (e.key === 'Escape' && selectedId && !t.closest?.('.conversation-confirm')) {
+        e.preventDefault()
+        if (sourceKey) {
+          setSourceKey(null)
+          return
+        }
+        const opener = document.querySelector('.hit[aria-current="true"]')
+        closePanel()
+        requestAnimationFrame(() => opener?.focus())
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [entered, selectedId, sourceKey])
+
   // Start each panel view at the top
   useLayoutEffect(() => {
     panelRef.current?.scrollTo({ top: 0 })

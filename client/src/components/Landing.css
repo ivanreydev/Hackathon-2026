@@ -219,43 +219,9 @@
   transition-delay: 0s, 0s, 0s, 280ms;
 }
 
-/* The tied-off thread under "knot": draws in once the logo's highlight has
-   run its course, then lets go quickly when the word moves on. */
 .tagline-slot-wrap {
   position: relative;
   display: inline-block;
-}
-
-.knot-thread {
-  position: absolute;
-  left: -0.05em;
-  top: calc(100% - 0.1em);
-  width: 2.35em;
-  height: 0.664em; /* 2.35em x 26/92, the viewBox ratio */
-  overflow: visible;
-  pointer-events: none;
-}
-
-.knot-thread path {
-  fill: none;
-  stroke: var(--electric);
-  stroke-width: 3.6;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 1;
-  opacity: 0;
-  transition:
-    stroke-dashoffset 260ms cubic-bezier(0.7, 0, 0.84, 0),
-    opacity 200ms ease-in;
-}
-
-.is-knot .knot-thread path {
-  stroke-dashoffset: 0;
-  opacity: 1;
-  transition:
-    stroke-dashoffset 900ms cubic-bezier(0.16, 1, 0.3, 1) 1000ms,
-    opacity 120ms linear 1000ms;
 }
 
 .sr-only {
@@ -466,7 +432,6 @@
 @media (prefers-reduced-motion: reduce) {
   .landing-logo-wrap,
   .logo-thread path,
-  .knot-thread path,
   .landing-letter,
   .landing-tagline,
   .tagline-slot,

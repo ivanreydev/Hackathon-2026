@@ -17,7 +17,13 @@ export default function SourceView({ sourceKey, onBack }) {
   return (
     <div className="panel-body">
       <div className="panel-bar">
-        <button type="button" className="back-button" onClick={onBack}>
+        <button
+          type="button"
+          className="back-button"
+          aria-keyshortcuts="Escape"
+          title="Back (Esc)"
+          onClick={onBack}
+        >
           ← Back to situation
         </button>
       </div>

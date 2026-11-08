@@ -1,6 +1,7 @@
 import { useSituation } from '../api/hooks'
 import { formatDate, pointerLabel } from '../lib/format'
 import StatusBadge from './StatusBadge'
+import KnotView from './KnotView'
 import { Loading, LoadError } from './LoadState'
 
 export default function SituationDetail({ id, onOpenSource, onClose }) {
@@ -10,7 +11,14 @@ export default function SituationDetail({ id, onOpenSource, onClose }) {
     <div className="panel-body">
       <div className="panel-bar">
         <p className="panel-kicker">{id}</p>
-        <button type="button" className="icon-button" aria-label="Close detail" onClick={onClose}>
+        <button
+          type="button"
+          className="icon-button"
+          aria-label="Close detail"
+          aria-keyshortcuts="Escape"
+          title="Close (Esc)"
+          onClick={onClose}
+        >
           <svg style={{ width: '1.125rem', height: '1.125rem' }} viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
@@ -41,6 +49,11 @@ function DetailContent({ situation, onOpenSource }) {
           ))}
         </p>
       </header>
+
+      <section className="detail-section">
+        <h3>How it's tied</h3>
+        <KnotView situation={situation} onOpenSource={onOpenSource} />
+      </section>
 
       <section className="detail-section">
         <h3>Symptoms</h3>
@@ -76,7 +89,8 @@ function SolutionCard({ solution, onOpenSource }) {
   if (conflicting) className += ' solution-conflict'
 
   return (
-    <article className={className} aria-label={id}>
+    // The knot view scrolls to and focuses this card when its fix is clicked
+    <article className={className} aria-label={id} id={`solution-${id}`} tabIndex={-1}>
       {superseded && <p className="note note-muted">Superseded by {supersededBy}</p>}
       {conflicting && (
         <p className="note note-warn">

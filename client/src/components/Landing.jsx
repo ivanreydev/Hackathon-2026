@@ -29,14 +29,10 @@ const BUBBLES = [
 // which holds a little longer as the punchline before the cycle starts again.
 const TAGLINE_WORDS = ['node', 'site', 'fault', 'engineer', 'knot']
 const TAGLINE_HOLD_MS = 2500
+// On "knot" a highlight runs along the Elisa logo's thread (see Landing.css)
 const TAGLINE_PUNCH_MS = 4000
 // First swap waits until the support line and button have risen in
 const TAGLINE_START_MS = 1800
-
-// On "knot" a highlight runs along the Elisa logo's thread, then the same thread
-// ties a loop under the word.
-// Underline with one loop in it, like a thread tied off under the word
-const KNOT_THREAD = 'M3 20C20 20 33 20 43 16C57 10 60 3 52 3C43 3 44 17 59 20C71 22 82 20 89 18'
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches
@@ -211,9 +207,6 @@ export default function Landing({ onEnter, onLaunch, overlay = false, logoAwaiti
                   </span>
                 ))}
               </span>
-              <svg className="knot-thread" viewBox="0 0 92 26" aria-hidden="true" focusable="false">
-                <path d={KNOT_THREAD} pathLength="1" />
-              </svg>
             </span>
           </span>
         </p>
