@@ -67,7 +67,7 @@ def transform_email(raw: str, roles: dict | None = None, aliases: dict | None = 
         name, addr = raw_from.strip(), ""
     name = name or addr or "Unknown"
     author_id = aliases.get(addr.lower()) or aliases.get(name.lower())
-    dt, basis = parse_date(headers.get("date"))
+    dt, basis = parse_date(headers.get("time"))
     stem = os.path.splitext(source_name)[0] if source_name else "email"
     text = clean_body(body)
     skipped = {"empty": 0}
@@ -92,6 +92,7 @@ def transform_email(raw: str, roles: dict | None = None, aliases: dict | None = 
         skipped["empty"] = 1
     return {
         "channel": "email",
+        "datetime": dt,
         "note": "Transformed from a plain-text email" + (f" ({source_name})" if source_name else ""),
         "source": {"file": source_name},
         "participants": [{"name": name, "role": roles.get(author_id, "Unknown"),
