@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { ELISA_THREAD, ELISA_TRANSFORM, ELISA_VIEWBOX } from '../lib/elisaThread'
 import './Landing.css'
 
 // The name rests heavy in brand blue and thickens under the cursor.
@@ -10,7 +11,9 @@ const LETTERS = WORDS.flatMap((w, wi) =>
 )
 // Last letter: delay (n-1)*45 + 120, plus the 900ms rise (see Landing.css)
 const ENTRANCE_MS = (LETTERS.length - 1) * 45 + 120 + 900 + 30
-const EXIT_MS = 350
+// The exit (letters thin and drop, the page fades) runs over the chat; App keeps
+// this page on top for that long
+export const LANDING_EXIT_MS = 350
 
 // Bubbles that pop off the button's corners on hover: where they fly (px), when, and how big
 const BUBBLES = [
@@ -22,13 +25,66 @@ const BUBBLES = [
   { corner: 'br', x: 46, y: 4, delay: 140, size: 0.7 },
 ]
 
+// Tagline slot: "Every fix, tied to its ___." Ends on "knot", the other meaning of Solmu,
+// which holds a little longer as the punchline before the cycle starts again.
+const TAGLINE_WORDS = ['node', 'site', 'fault', 'engineer', 'knot']
+const TAGLINE_HOLD_MS = 2500
+const TAGLINE_PUNCH_MS = 4000
+// First swap waits until the support line and button have risen in
+const TAGLINE_START_MS = 1800
+
+// On "knot" a highlight runs along the Elisa logo's thread, then the same thread
+// ties a loop under the word.
+// Underline with one loop in it, like a thread tied off under the word
+const KNOT_THREAD = 'M3 20C20 20 33 20 43 16C57 10 60 3 52 3C43 3 44 17 59 20C71 22 82 20 89 18'
+
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches
 }
 
-export default function Landing({ onEnter }) {
+// onLaunch(rect): called at the click with the logo's rect, so App can send the
+// logo to the chat's corner as a thread (see LogoThread.jsx) while this page exits.
+// overlay: this page is exiting on top of the chat.
+// logoAwaiting: a thread is in flight, so the real logo stays hidden. If the page
+// mounts that way (coming Back), the logo skips its rise, since the thread lands
+// exactly on its resting spot.
+export default function Landing({ onEnter, onLaunch, overlay = false, logoAwaiting = false }) {
   const letterRefs = useRef([])
+  const logoRef = useRef(null)
   const [leaving, setLeaving] = useState(false)
+  const [arrivedByThread] = useState(logoAwaiting)
+  const [wordIndex, setWordIndex] = useState(0)
+  const [prevIndex, setPrevIndex] = useState(null)
+
+  // Rotate the tagline word. Reduced motion keeps the first word ("node") still.
+  useEffect(() => {
+    if (prefersReducedMotion()) return
+    let timer = 0
+    let current = 0
+    const step = () => {
+      const next = (current + 1) % TAGLINE_WORDS.length
+      setPrevIndex(current)
+      setWordIndex(next)
+      current = next
+      const isPunch = next === TAGLINE_WORDS.length - 1
+      timer = setTimeout(step, isPunch ? TAGLINE_PUNCH_MS : TAGLINE_HOLD_MS)
+    }
+    timer = setTimeout(step, TAGLINE_START_MS + TAGLINE_HOLD_MS)
+    return () => clearTimeout(timer)
+  }, [])
+
+  // The slot eases to the current word's width, so the sentence stays centred.
+  // Re-measured once the web fonts land, since fallback widths differ.
+  const slotRef = useRef(null)
+  const taglineWordRefs = useRef([])
+  useLayoutEffect(() => {
+    const fit = () => {
+      const el = taglineWordRefs.current[wordIndex]
+      if (el && slotRef.current) slotRef.current.style.width = `${el.offsetWidth}px`
+    }
+    fit()
+    document.fonts?.ready.then(fit)
+  }, [wordIndex])
 
   // Letters thicken as the cursor gets close. Fine pointers only, after the entrance settles.
   useEffect(() => {
@@ -84,16 +140,38 @@ export default function Landing({ onEnter }) {
       onEnter()
       return
     }
+    // The flying thread takes over from the logo at once, drawn exactly on top of it,
+    // and the chat mounts beneath straight away while this page plays its exit
+    onLaunch?.(logoRef.current.getBoundingClientRect())
     setLeaving(true)
-    setTimeout(onEnter, EXIT_MS)
+    onEnter()
   }
+
+  const isKnot = wordIndex === TAGLINE_WORDS.length - 1
 
   let index = 0
   return (
-    <div className={`landing${leaving ? ' is-leaving' : ''}`}>
+    <div
+      className={[
+        'landing',
+        leaving && 'is-leaving',
+        isKnot && 'is-knot',
+        overlay && 'is-overlay',
+        logoAwaiting && 'is-logo-awaiting',
+        arrivedByThread && 'is-thread-arrival',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+    >
       <main className="landing-stage">
-        {/* Shares a view-transition name with the chat page's corner logo, so it glides there */}
-        <img src="/elisa-logo.svg" alt="Elisa" className="landing-logo elisa-logo-shared" />
+        <span className="landing-logo-wrap">
+          {/* Between pages this logo travels as a thread (LogoThread.jsx) */}
+          <img ref={logoRef} src="/elisa-logo.svg" alt="Elisa" className="landing-logo" />
+          {/* Same viewBox and path as the logo, so the highlight runs exactly along its thread */}
+          <svg className="logo-thread" viewBox={ELISA_VIEWBOX} aria-hidden="true" focusable="false">
+            <path d={ELISA_THREAD} pathLength="1" transform={ELISA_TRANSFORM} />
+          </svg>
+        </span>
         <h1 className="landing-name" aria-label="Solmu">
           {WORDS.map((word, wi) => (
             <span key={word.text} className={`landing-word landing-word-${wi}`} aria-hidden="true">
@@ -114,6 +192,32 @@ export default function Landing({ onEnter }) {
           ))}
         </h1>
 
+        {/* Screen readers get one stable sentence; the rotating slot is visual only */}
+        <p className="landing-tagline">
+          <span className="sr-only">Every fix, tied to its node.</span>
+          <span aria-hidden="true">
+            Every fix, tied to its{' '}
+            <span className="tagline-slot-wrap">
+              <span className="tagline-slot" ref={slotRef}>
+                {TAGLINE_WORDS.map((word, i) => (
+                  <span
+                    key={word}
+                    ref={(el) => (taglineWordRefs.current[i] = el)}
+                    className={`tagline-word${i === wordIndex ? ' is-current' : ''}${
+                      i === prevIndex ? ' is-past' : ''
+                    }`}
+                  >
+                    {word}.
+                  </span>
+                ))}
+              </span>
+              <svg className="knot-thread" viewBox="0 0 92 26" aria-hidden="true" focusable="false">
+                <path d={KNOT_THREAD} pathLength="1" />
+              </svg>
+            </span>
+          </span>
+        </p>
+
         <p className="landing-line">Field know-how from past chats and emails, found again.</p>
 
         {/* Bubble button: the blue shape is drawn behind the label, and on hover small
@@ -121,7 +225,7 @@ export default function Landing({ onEnter }) {
         <span className="landing-cta-wrap">
           <button type="button" className="landing-cta" onClick={enter}>
             Open the assistant
-            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+            <svg viewBox="0 0 16 16" style={{ width: '1rem', height: '1rem' }} aria-hidden="true">
               <path
                 d="M3 8h9M8.5 4.5 12 8l-3.5 3.5"
                 fill="none"
@@ -138,7 +242,7 @@ export default function Landing({ onEnter }) {
               <span
                 key={i}
                 className={`cta-bubble cta-bubble-${b.corner}`}
-                style={{ '--x': `${b.x}px`, '--y': `${b.y}px`, '--d': `${b.delay}ms`, '--s': b.size }}
+                style={{ '--x': `${b.x / 16}rem`, '--y': `${b.y / 16}rem`, '--d': `${b.delay}ms`, '--s': b.size }}
               />
             ))}
           </span>

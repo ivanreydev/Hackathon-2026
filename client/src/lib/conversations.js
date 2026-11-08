@@ -62,6 +62,20 @@ export function useConversations() {
     setState((s) => ({ conversations: [c, ...s.conversations], activeId: c.id }))
   }
 
+  /** Deleting the open conversation moves to the most recent other one; the last one is replaced by a blank. */
+  function remove(id) {
+    setState((s) => {
+      const rest = s.conversations.filter((c) => c.id !== id)
+      if (rest.length === 0) {
+        const c = newConversation()
+        return { conversations: [c], activeId: c.id }
+      }
+      if (s.activeId !== id) return { ...s, conversations: rest }
+      const next = [...rest].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0]
+      return { conversations: rest, activeId: next.id }
+    })
+  }
+
   /** Adds the user's text plus a bot message that shows its ranked results. */
   function send(text) {
     const id = Date.now()
@@ -85,5 +99,5 @@ export function useConversations() {
     }))
   }
 
-  return { conversations, active, select, create, send }
+  return { conversations, active, select, create, remove, send }
 }

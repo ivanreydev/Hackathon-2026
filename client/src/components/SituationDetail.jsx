@@ -11,7 +11,7 @@ export default function SituationDetail({ id, onOpenSource, onClose }) {
       <div className="panel-bar">
         <p className="panel-kicker">{id}</p>
         <button type="button" className="icon-button" aria-label="Close detail" onClick={onClose}>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <svg style={{ width: '1.125rem', height: '1.125rem' }} viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path d="M6 6l12 12M18 6 6 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
         </button>
@@ -80,7 +80,7 @@ function SolutionCard({ solution, onOpenSource }) {
       {superseded && <p className="note note-muted">Superseded by {supersededBy}</p>}
       {conflicting && (
         <p className="note note-warn">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <svg style={{ width: '0.875rem', height: '0.875rem' }} viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path
               d="M12 3 2 21h20L12 3Zm0 7v5m0 3v.01"
               stroke="currentColor"

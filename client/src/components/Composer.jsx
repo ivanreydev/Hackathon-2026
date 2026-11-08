@@ -29,7 +29,7 @@ export default function Composer({ value, onChange, onSend }) {
           disabled={!canSend}
           onClick={onSend}
         >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <svg style={{ width: '1.125rem', height: '1.125rem' }} viewBox="0 0 24 24" fill="none" aria-hidden="true">
             <path
               d="M5 12h14m-6-6 6 6-6 6"
               stroke="currentColor"
