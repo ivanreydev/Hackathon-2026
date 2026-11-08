@@ -14,7 +14,7 @@ def render_message(msg: dict, ref_prefix: str, with_refs: bool = True, extra_fie
     when = msg.get("datetime") or "no date"
     ref = msg.get("ref") or f"{ref_prefix}#{msg['seq']}"      # merged documents carry their own per-message ref
     tag = f"{ref} | {when}" if with_refs else when
-    lines = [f"[{tag}] {msg.get('author') or 'Unknown'} ({msg.get('role') or 'Unknown'}):"]
+    lines = [f"[{tag}] {msg.get('role') or 'Unknown'}:"]
     if msg.get("subject"):
         lines.append(f"Subject: {msg['subject']}")
     lines.append(msg.get("text", ""))
