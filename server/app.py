@@ -12,7 +12,9 @@ app = FastAPI(title="Hackathon 2026")
 
 
 # --- API ---------------------------------------------------------------------
-# Shapes are defined in client/src/api/types.js. Scores go out on a 0..1000 scale.
+# Shapes are defined in client/src/api/types.js. Send raw values only:
+# `distance` (from the vector index, lower = closer) and `timestamp` (ISO).
+# The frontend turns them into 0..1 relevancy/recency/score itself.
 
 
 @app.get("/api/health")
@@ -26,6 +28,9 @@ def _not_implemented():
 
 @app.post("/api/situations/search")
 def search_situations(body: dict):
+    """In:  {"description": str, "entity"?: str, "at"?: ISO str, "limit"?: int}
+    Out: [{"id", "summary", "status", "distance", "timestamp", "categories", "entities", "why"}, ...]
+         a plain list, best match first."""
     _not_implemented()
 
 

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T12:00:00Z",
+  "title": "Design System: Solmu",
+  "extensions": {
+    "colorMeta": {
+      "brand": { "role": "primary", "displayName": "Elisa Royal Blue", "canonical": "#0012b4", "tonalRamp": ["#000036", "#01166e", "#0d35a6", "#2054e2", "#4a80ff", "#85acfe", "#bbd1fe", "#e7effe"] },
+      "electric": { "role": "primary", "displayName": "Elisa Electric Blue", "canonical": "#0019ff", "tonalRamp": ["#000036", "#00007f", "#001ec4", "#0c46fe", "#4a80fe", "#85acfe", "#bbd1fe", "#e7effe"] },
+      "link": { "role": "secondary", "displayName": "Interface Link Blue", "canonical": "#1a73e8", "tonalRamp": ["#000923", "#002355", "#00408f", "#0560cd", "#3d87f0", "#79afff", "#b6d3fe", "#e5efff"] },
+      "link-wash": { "role": "secondary", "displayName": "Link Wash", "canonical": "#eef4fe" },
+      "navy": { "role": "neutral", "displayName": "Elisa Night Navy", "canonical": "#0a1050", "tonalRamp": ["#040822", "#18234a", "#324175", "#4d62a4", "#7086c8", "#98ace5", "#bfd0fe", "#e8eefe"] },
+      "ink-soft": { "role": "neutral", "displayName": "Navy Mist Ink", "canonical": "color-mix(in srgb, var(--navy) 70%, white)", "tonalRamp": ["#08091a", "#22243d", "#3e4264", "#5e628d", "#8085b1", "#a6abd0", "#cacfee", "#ebedff"] },
+      "muted": { "role": "neutral", "displayName": "Slate Muted", "canonical": "#6b7280", "tonalRamp": ["#090b10", "#23262e", "#40454f", "#606673", "#838996", "#a8aeb9", "#ccd1db", "#ebeff6"] },
+      "surface": { "role": "neutral", "displayName": "Paper White", "canonical": "#ffffff" },
+      "page-bg": { "role": "neutral", "displayName": "Cool Page", "canonical": "#f6f7fa" },
+      "bot-bg": { "role": "neutral", "displayName": "Reply Tint", "canonical": "#f1f3f8" },
+      "border": { "role": "neutral", "displayName": "Hairline", "canonical": "#e0e3e8", "tonalRamp": ["#0a0b0d", "#252629", "#434548", "#64666a", "#87898d", "#acaeb1", "#cfd1d4", "#edeef1"] },
+      "ok": { "role": "status", "displayName": "Valid Green", "canonical": "#1f8a4c", "tonalRamp": ["#001004", "#003014", "#025429", "#117a40", "#489e65", "#7cc08f", "#a9e1b8", "#cefcda"] },
+      "ok-bg": { "role": "status", "displayName": "Valid Wash", "canonical": "#e7f5ec" },
+      "warn": { "role": "status", "displayName": "Outdated Amber", "canonical": "#9a5b00", "tonalRamp": ["#150800", "#3a1f00", "#643901", "#915604", "#b57b3d", "#d5a371", "#f3c8a0", "#feebd8"] },
+      "warn-bg": { "role": "status", "displayName": "Outdated Wash", "canonical": "#fff3dc" },
+      "danger": { "role": "status", "displayName": "Conflict Red", "canonical": "#b42318", "tonalRamp": ["#1f0000", "#4f0100", "#81130c", "#b42e22", "#da5b4b", "#f88b7a", "#febfb5", "#fee9e5"] },
+      "danger-bg": { "role": "status", "displayName": "Conflict Wash", "canonical": "#fdecea" },
+      "hl-bg": { "role": "highlight", "displayName": "Source Highlight", "canonical": "#fff8d6" },
+      "hl-edge": { "role": "highlight", "displayName": "Highlight Edge", "canonical": "#e0a800", "tonalRamp": ["#110a00", "#332401", "#594102", "#826000", "#ad8103", "#d0a84f", "#eecc88", "#ffedc9"] },
+      "hl-text": { "role": "highlight", "displayName": "Highlight Ink", "canonical": "#6e5200" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The product name on the landing only. Variable weight per letter: \"Solmu\" rests 700 (peak 900). Under 600px: clamp(48px, 21vw, 128px), line-height 0.92, one line." },
+      "headline": { "displayName": "Headline", "purpose": "Situation title in the detail panel." },
+      "title": { "displayName": "Title", "purpose": "Chat header." },
+      "body-lead": { "displayName": "Body Lead", "purpose": "The landing's single support line, max 56ch, balanced wrap." },
+      "body": { "displayName": "Body", "purpose": "Root text for messages, results and detail copy; 600 for emphasis." },
+      "caption": { "displayName": "Caption", "purpose": "Footers, source metadata, validity rows, segmented controls." },
+      "label": { "displayName": "Label", "purpose": "Uppercase chip text and detail section headings; IDs, timestamps and tags use 12px without uppercase." }
+    },
+    "shadows": [
+      { "name": "pill-rest", "value": "0 6px 18px -8px rgb(0 18 180 / 0.55)", "purpose": "The primary pill at rest, tinted brand blue." },
+      { "name": "pill-hover", "value": "0 10px 24px -10px rgb(0 25 255 / 0.6)", "purpose": "The primary pill on hover, tinted electric blue." }
+    ],
+    "focus": [
+      { "name": "focus-default", "value": "outline: 2px solid var(--link); outline-offset: 2px", "purpose": "Global :focus-visible ring." },
+      { "name": "focus-pill", "value": "outline: 3px solid var(--electric); outline-offset: 4px", "purpose": "Focus on the solid primary pill." }
+    ],
+    "motion": [
+      { "name": "ease-out-expo", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Entrances, letter weight response, arrow nudge." },
+      { "name": "ease-in-exit", "value": "cubic-bezier(0.7, 0, 0.84, 0)", "purpose": "Landing exit: letters thin and drop." },
+      { "name": "duration-state", "value": "160ms ease-out", "purpose": "Pill background, shadow and press transitions." },
+      { "name": "duration-weight", "value": "260ms", "purpose": "Letter weight following the cursor." },
+      { "name": "entrance-letter", "value": "900ms, stagger 45ms, +120ms delay; from weight 100, opacity 0.15, translateY(0.22em), blur(6px)", "purpose": "The name assembling." },
+      { "name": "entrance-follow", "value": "700ms rise of 10px, delays 700ms (line) and 820ms (button)", "purpose": "Support line and button following the name." },
+      { "name": "exit", "value": "letters 280ms with 6ms stagger to weight 100 and translateY(0.18em); line and button fade 240ms ease-in; hand-off at 350ms", "purpose": "Click into the chat." },
+      { "name": "spinner", "value": "0.8s linear infinite (2.4s under reduced motion)", "purpose": "Loading state." },
+      { "name": "reduced-motion", "value": "prefers-reduced-motion: reduce disables entrance, exit and cursor response", "purpose": "Motion floor." }
+    ],
+    "breakpoints": [
+      { "name": "meters-single", "value": "480px" },
+      { "name": "landing-stack", "value": "600px" },
+      { "name": "chat-compact", "value": "640px" },
+      { "name": "panel-stack", "value": "900px" },
+      { "name": "container", "value": "1172px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Pill",
+      "kind": "button",
+      "refersTo": "button-pill",
+      "description": "The single primary action on a stage, e.g. Open the assistant.",
+      "html": "<button class=\"ds-btn-pill\">Open the assistant<svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M3 8h9M8.5 4.5 12 8l-3.5 3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-pill { display: inline-flex; align-items: center; gap: 10px; padding: 15px 28px; border: 0; border-radius: 999px; background: var(--brand, #0012b4); color: #fff; font-family: 'Open Sans', system-ui, sans-serif; font-weight: 600; font-size: 16px; cursor: pointer; box-shadow: 0 6px 18px -8px rgb(0 18 180 / 0.55); transition: background-color 160ms ease-out, box-shadow 160ms ease-out, transform 160ms ease-out; } .ds-btn-pill svg { transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-btn-pill:hover { background: var(--electric, #0019ff); box-shadow: 0 10px 24px -10px rgb(0 25 255 / 0.6); } .ds-btn-pill:hover svg { transform: translateX(3px); } .ds-btn-pill:active { transform: translateY(1px); } .ds-btn-pill:focus-visible { outline: 3px solid var(--electric, #0019ff); outline-offset: 4px; }"
+    },
+    {
+      "name": "Send Button",
+      "kind": "button",
+      "refersTo": "button-send",
+      "description": "Square icon button that submits the composer.",
+      "html": "<button class=\"ds-btn-send\" aria-label=\"Send\"><svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M3 8h9M8.5 4.5 12 8l-3.5 3.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-send { width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: var(--radius-sm, 6px); background: var(--electric, #0019ff); color: #fff; cursor: pointer; } .ds-btn-send:hover:not(:disabled) { background: var(--brand, #0012b4); } .ds-btn-send:disabled { opacity: 0.45; cursor: not-allowed; } .ds-btn-send:focus-visible { outline: 2px solid var(--link, #1a73e8); outline-offset: 2px; }"
+    },
+    {
+      "name": "Suggestion Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Follow-up actions under an assistant reply; the first is filled navy.",
+      "html": "<div class=\"ds-chip-row\"><button class=\"ds-chip ds-chip-primary\">Show solutions</button><button class=\"ds-chip\">Copy summary</button></div>",
+      "css": ".ds-chip-row { display: flex; flex-wrap: wrap; gap: 8px; } .ds-chip { padding: 5px 12px; border: 1px solid var(--link, #1a73e8); border-radius: 999px; background: var(--surface, #fff); color: var(--link, #1a73e8); font-family: 'Open Sans', system-ui, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; cursor: pointer; } .ds-chip:hover { background: #eef4fe; } .ds-chip:focus-visible { outline: 2px solid var(--link, #1a73e8); outline-offset: 2px; } .ds-chip-primary { background: var(--navy, #0a1050); border-color: var(--navy, #0a1050); color: #fff; } .ds-chip-primary:hover { background: var(--brand, #0012b4); }"
+    },
+    {
+      "name": "Composer Field",
+      "kind": "input",
+      "refersTo": "input-composer",
+      "description": "Free-text problem description in the chat composer.",
+      "html": "<textarea class=\"ds-input-composer\" rows=\"1\" placeholder=\"Describe what you see on site\"></textarea>",
+      "css": ".ds-input-composer { width: 280px; min-height: 44px; resize: none; padding: 10px 12px; border: 1px solid var(--border, #e0e3e8); border-radius: var(--radius-sm, 6px); background: var(--surface, #fff); color: var(--navy, #0a1050); font: 15px/1.5 'Open Sans', system-ui, sans-serif; } .ds-input-composer::placeholder { color: var(--muted, #6b7280); } .ds-input-composer:focus-visible { outline: 2px solid var(--link, #1a73e8); outline-offset: 2px; }"
+    },
+    {
+      "name": "Message Bubbles",
+      "kind": "custom",
+      "refersTo": "message-user",
+      "description": "User messages in electric blue on the right, assistant replies in reply tint on the left.",
+      "html": "<div class=\"ds-messages\"><div class=\"ds-msg ds-msg-user\">BGP session flaps on TRN-042 every few minutes</div><div class=\"ds-msg ds-msg-bot\">Found 3 similar past situations.</div></div>",
+      "css": ".ds-messages { display: flex; flex-direction: column; gap: 14px; width: 360px; font: 15px/1.5 'Open Sans', system-ui, sans-serif; } .ds-msg { max-width: 85%; padding: 12px 14px; border-radius: var(--radius-md, 12px); } .ds-msg-user { align-self: flex-end; background: var(--electric, #0019ff); color: #fff; } .ds-msg-bot { align-self: flex-start; background: var(--bot-bg, #f1f3f8); color: var(--navy, #0a1050); }"
+    },
+    {
+      "name": "Result Card",
+      "kind": "card",
+      "refersTo": "card-hit",
+      "description": "A ranked past situation with status badge and relevancy meter.",
+      "html": "<button class=\"ds-hit\"><span class=\"ds-hit-top\"><span class=\"ds-hit-id\">SIT-0142</span><span class=\"ds-badge ds-badge-valid\">Valid</span></span><span class=\"ds-hit-summary\">Optic degradation on uplink after storm</span><span class=\"ds-meter\"><span class=\"ds-meter-label\">Relevancy</span><span class=\"ds-meter-track\"><span class=\"ds-meter-fill\" style=\"width:72%\"></span></span><span class=\"ds-meter-value\">72%</span></span></button>",
+      "css": ".ds-hit { width: 340px; display: flex; flex-direction: column; gap: 8px; padding: 12px; border: 1px solid var(--border, #e0e3e8); border-radius: var(--radius-sm, 6px); background: var(--surface, #fff); color: var(--navy, #0a1050); font: 15px/1.5 'Open Sans', system-ui, sans-serif; text-align: left; cursor: pointer; } .ds-hit:hover { border-color: var(--link, #1a73e8); } .ds-hit:focus-visible { outline: 2px solid var(--link, #1a73e8); outline-offset: 2px; } .ds-hit-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; } .ds-hit-id { font-size: 12px; font-weight: 600; color: var(--muted, #6b7280); } .ds-hit-summary { font-weight: 600; line-height: 1.4; } .ds-meter { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px; font-size: 12px; } .ds-meter-label { color: var(--muted, #6b7280); } .ds-meter-track { height: 6px; border-radius: 999px; background: var(--bot-bg, #f1f3f8); overflow: hidden; } .ds-meter-fill { display: block; height: 100%; border-radius: inherit; background: var(--electric, #0019ff); } .ds-meter-value { font-weight: 600; font-variant-numeric: tabular-nums; } .ds-badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; } .ds-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; } .ds-badge-valid { background: var(--ok-bg, #e7f5ec); color: var(--ok, #1f8a4c); }"
+    },
+    {
+      "name": "Status Badges",
+      "kind": "chip",
+      "refersTo": "badge-valid",
+      "description": "Situation validity: valid, outdated, conflicting.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge ds-badge-valid\">Valid</span><span class=\"ds-badge ds-badge-outdated\">Outdated</span><span class=\"ds-badge ds-badge-conflicting\">Conflicting</span></div>",
+      "css": ".ds-badges { display: flex; gap: 8px; font-family: 'Open Sans', system-ui, sans-serif; } .ds-badge { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; white-space: nowrap; } .ds-badge::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; } .ds-badge-valid { background: var(--ok-bg, #e7f5ec); color: var(--ok, #1f8a4c); } .ds-badge-outdated { background: var(--warn-bg, #fff3dc); color: var(--warn, #9a5b00); } .ds-badge-conflicting { background: var(--danger-bg, #fdecea); color: var(--danger, #b42318); }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "nav",
+      "refersTo": "segmented",
+      "description": "Sort switch for ranked results.",
+      "html": "<div class=\"ds-segmented\"><button aria-pressed=\"true\">Relevancy</button><button aria-pressed=\"false\">Recency</button></div>",
+      "css": ".ds-segmented { display: inline-flex; padding: 2px; border: 1px solid var(--border, #e0e3e8); border-radius: var(--radius-sm, 6px); background: var(--surface, #fff); font-family: 'Open Sans', system-ui, sans-serif; } .ds-segmented button { padding: 4px 10px; border: 0; border-radius: 4px; background: none; color: var(--muted, #6b7280); font: inherit; font-size: 13px; cursor: pointer; } .ds-segmented button:hover { color: var(--navy, #0a1050); } .ds-segmented button:focus-visible { outline: 2px solid var(--link, #1a73e8); outline-offset: 2px; } .ds-segmented button[aria-pressed='true'] { background: var(--navy, #0a1050); color: #fff; }"
+    },
+    {
+      "name": "Assembling Name",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Signature: the product name, letters rising from a hairline to rest weight; Solmu heavy in brand.",
+      "html": "<h1 class=\"ds-name\" aria-label=\"Solmu\"><span class=\"ds-name-word\">Solmu</span></h1>",
+      "css": ".ds-name { margin: 0; font-family: 'Jost', Futura, 'Century Gothic', sans-serif; font-size: 72px; line-height: 0.95; letter-spacing: -0.03em; white-space: nowrap; color: var(--brand, #0012b4); } .ds-name span { display: inline-block; font-weight: 700; --rest: 700; animation: ds-letter-in 900ms cubic-bezier(0.16, 1, 0.3, 1) backwards; transition: font-weight 260ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-name span:hover { font-weight: 900; } @keyframes ds-letter-in { from { font-weight: 100; opacity: 0.15; transform: translateY(0.22em); filter: blur(6px); } } @media (prefers-reduced-motion: reduce) { .ds-name span { animation: none; transition: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Elisa Ink on White",
+    "overview": "Solmu is written in Elisa's own blue ink on white paper. The identity is borrowed, not invented: the Elisa script logo, the three Elisa blues, Jost for display and Open Sans for text. Inside that identity the system has two registers that share one set of tokens. The landing is a single centred typographic stage where the product name is the whole page and Jost's variable weight is the only expressive material. The chat app is a calm, dense working tool: white panels with hairline borders on a cool off-white page, compact Open Sans text, and blue reserved for what the user does or has to act on.\n\nDepth is mostly tonal: hairline borders and pale tinted fills separate things, and the one lifted object is the landing's pill button, carried by a blue-tinted shadow. Motion is exponential and short. One entrance, one exit, state changes in about 160ms, and nothing moves under reduced motion beyond a slowed spinner.",
+    "keyCharacteristics": [
+      "White surfaces, navy body ink, Elisa blue as the action colour.",
+      "Jost carries names and titles; Open Sans carries everything you read.",
+      "Variable weight is the landing's signature: letters rise from a hairline (100) to rest weight and thicken toward the cursor.",
+      "Pills for actions and tags, gentle 6px/12px corners for fields and containers.",
+      "Flat panels with 1px borders; one tinted shadow on the primary pill."
+    ],
+    "rules": [
+      { "name": "The Three Blues Rule", "body": "Brand blue is the ink at rest, electric blue is the ink in motion or in use, navy is the ink you read. A new surface picks its blue by that role, not by taste.", "section": "colors" },
+      { "name": "The Tinted Secondary Rule", "body": "On the landing, secondary text is a navy tint (ink-soft), never a neutral grey; the stage stays entirely inside the blue family.", "section": "colors" },
+      { "name": "The Weight Is the Material Rule", "body": "On the landing, expression comes from Jost's weight axis, nothing else: no extra colour, image or ornament around the name.", "section": "typography" },
+      { "name": "The Display Is for Names Rule", "body": "Jost appears only on names and titles (product name, chat header, situation title). Running text, controls and labels stay in Open Sans.", "section": "typography" },
+      { "name": "The Flat Panel Rule", "body": "Containers are separated by a 1px hairline and tone, never by drop shadows. A shadow belongs only to the one primary action on a stage, and it is always tinted blue, never grey or black.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use brand blue (#0012b4) for the resting primary action and electric blue (#0019ff) for its hover, focus ring and anything in use.",
+      "Do set body text in navy (#0a1050) and landing secondary text in the navy tint, not grey.",
+      "Do keep Jost to names and titles, and carry expression on the landing through its weight axis (100 to 900).",
+      "Do separate containers with a 1px hairline (#e0e3e8) and tonal fills.",
+      "Do use the exponential ease cubic-bezier(0.16, 1, 0.3, 1) for entrances and 160ms ease-out for state changes, and switch all of it off under prefers-reduced-motion.",
+      "Do pair every status colour with its own pale fill."
+    ],
+    "donts": [
+      "Don't put a drop shadow on panels or cards; the tinted shadow belongs only to the primary pill.",
+      "Don't use grey or black shadows; shadows are tinted with the blue of the object that casts them.",
+      "Don't introduce hues outside the Elisa blues, the blue-grey neutrals, the status pairs and the source highlight.",
+      "Don't set running text, controls or labels in Jost.",
+      "Don't add more than one primary pill to a stage."
+    ]
+  }
+}
